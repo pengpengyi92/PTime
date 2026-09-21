@@ -1,0 +1,30 @@
+# Scores are heuristics, NOT probabilities of a reply or confirmed availability.
+weights:
+  time_score: 0.40
+  contact_priority: 0.25
+  relationship_score: 0.15
+  recency_score: 0.10
+  opportunity_score: 0.10
+priority: {P0: 1.0, P1: 0.8, P2: 0.6, P3: 0.4}
+relationship:
+  friend: 0.9
+  researcher: 0.85
+  headhunter: 0.9
+  recruiter: 0.9
+  hr: 0.75
+  hiring_manager: 0.9
+  pm: 0.8
+  founder: 0.85
+  alumni: 0.8
+  professional_contact: 0.7
+actions:
+  follow_up: 1.0
+  informal_chat: 0.8
+  interview: 1.0
+  coffee_chat: 0.85
+  research_discussion: 1.0
+  recruiting_message: 1.0
+  application_follow_up: 1.0
+  relationship_maintenance: 0.85
+recency_days: 14
+follow_up_due_days: 7

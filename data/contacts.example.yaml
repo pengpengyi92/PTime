@@ -1,0 +1,44 @@
+# All names, organizations and opportunities below are fictional.
+# This is not Pengyi's actual contact list.
+contacts:
+  - name: Example London Recruiter
+    organization: Fictional Research Recruiting
+    location: London
+    timezone: Europe/London
+    relationship: recruiter
+    priority: P0
+    topics: [quant, systematic trading]
+    last_contact: "2026-09-10"
+    next_action: follow_up
+    synthetic: true
+    opportunities:
+      - {id: demo-role, title: Fictional research role, status: active, deadline: "2026-10-01"}
+  - name: Example Boston Researcher
+    organization: Fictional Research Lab
+    location: Boston
+    timezone: America/New_York
+    relationship: researcher
+    priority: P1
+    topics: [market data, factor research]
+    last_contact: "2026-09-12"
+    next_action: research_discussion
+    synthetic: true
+  - name: Example Singapore Friend
+    organization: Fictional Builder Group
+    location: Singapore
+    timezone: Asia/Singapore
+    relationship: friend
+    priority: P2
+    topics: [AI tools]
+    last_contact: "2026-09-15"
+    next_action: informal_chat
+    synthetic: true
+  - name: Example California Engineer
+    organization: Fictional Systems Team
+    location: San Francisco
+    timezone: America/Los_Angeles
+    relationship: professional_contact
+    priority: P1
+    topics: [infrastructure]
+    next_action: coffee_chat
+    synthetic: true

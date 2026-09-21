@@ -1,0 +1,27 @@
+China:
+  name: Shenzhen / China
+  timezone: Asia/Shanghai
+HongKong:
+  name: Hong Kong
+  timezone: Asia/Hong_Kong
+Singapore:
+  name: Singapore
+  timezone: Asia/Singapore
+London:
+  name: London
+  timezone: Europe/London
+NewYork:
+  name: New York
+  timezone: America/New_York
+Boston:
+  name: Boston
+  timezone: America/New_York
+Greenwich_CT:
+  name: Greenwich, CT
+  timezone: America/New_York
+Chicago:
+  name: Chicago
+  timezone: America/Chicago
+SanFrancisco:
+  name: San Francisco
+  timezone: America/Los_Angeles

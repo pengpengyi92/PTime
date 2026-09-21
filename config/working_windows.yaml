@@ -1,0 +1,12 @@
+base_timezone: Asia/Shanghai
+working_weekdays: [0, 1, 2, 3, 4]
+weekend_multiplier: 0.45
+windows:
+  - {start: "00:00", end: "07:00", name: avoid, status: avoid, score: 0.0, modes: [draft_for_later]}
+  - {start: "07:00", end: "09:00", name: early, status: early, score: 0.55, modes: [draft_for_later]}
+  - {start: "09:00", end: "12:00", name: strong_work_window, status: active, score: 0.95, modes: [professional_message, recruiter_followup, interview, research_discussion]}
+  - {start: "12:00", end: "14:00", name: lunch_soft_window, status: soft, score: 0.65, modes: [asynchronous_message]}
+  - {start: "14:00", end: "18:00", name: strong_work_window, status: active, score: 0.95, modes: [professional_message, recruiter_followup, interview, research_discussion]}
+  - {start: "18:00", end: "21:00", name: informal_window, status: informal, score: 0.5, modes: [informal_chat, relationship_maintenance]}
+  - {start: "21:00", end: "23:00", name: weak_window, status: weak, score: 0.25, modes: [draft_for_later]}
+  - {start: "23:00", end: "24:00", name: avoid, status: avoid, score: 0.0, modes: [draft_for_later]}

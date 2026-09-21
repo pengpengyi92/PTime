@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pengyi-ptime"
+version = "0.1.0"
+description = "Global time and communication window adapter"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0.2,<7", "tzdata>=2026.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "build>=1,<2"]
+
+[project.scripts]
+ptime = "ptime.__main__:main"
+
+[tool.setuptools]
+packages = ["ptime", "ptime.agents", "ptime.adapters", "ptime.core", "ptime_defaults", "ptime_examples"]
+package-dir = {ptime_defaults = "config", ptime_examples = "data"}
+
+[tool.setuptools.package-data]
+ptime_defaults = ["*.yaml"]
+ptime_examples = ["contacts.example.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
