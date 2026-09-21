@@ -45,6 +45,19 @@ VERSION, package metadata/runtime version, AGENT, CHANGELOG and release docs mai
   BLOCKED even when no channel is recorded. Added targeted regressions.
 - Existing Python 3.12 sandbox temp-directory restriction used approved normal-permission
   test runs; uv used a project-local ignored cache. No global dependencies were changed.
-- Public-file audit, commit/push and v2.0.0 tag read-back are the remaining release steps.
+- Public-file audit PASS: 66 tracked files and 17 local Markdown links.
+  Private/export/dependency paths excluded; only reserved example email addresses found.
+  No token/private-key signatures or ungenericized illustrative person names in public files.
 - Real calendar availability, native source integration and reply/connection outcomes are
   NOT_VERIFIED / UNMEASURED. No real messages, meetings or private profiles used.
+
+## Publication and Closure
+- Commit: 4eaae66acd9b63a551c5a33c26b8458e39562665.
+- Message: feat: upgrade PTime to global communication timing layer v2.0.
+- Main fast-forwarded from the implementation branch, with no history rewriting.
+- Main and annotated v2.0.0 tag pushed atomically.
+- Remote tag object a1d81070bb28c9e9fc4bb97abb18fad48b6c438d resolves to the implementation commit.
+- Workspace PROJECTS.md updated; unrelated repository contents preserved.
+- This final documentation receipt follows publication; the release tag remains immutable.
+
+**PTIME V2.0 CLOSED**

@@ -23,7 +23,11 @@ Verify both Python versions and installed wheel outside checkout. Inspect public
 - Final Python 3.11.3: **241 passed in 1.45s**; Python 3.12.13: **241 passed in 1.28s**.
 - Final wheel build and source-directory-independent smoke: PASS on both versions.
 - All four commands, packaged channel policy, both synthetic demos and empty defaults verified.
-- Version/package metadata consistency tests PASS. Public tag/push verification pending.
+- Version/package metadata consistency tests PASS.
+- Public review: 66 tracked files, 17 local Markdown links PASS; only synthetic contact
+  examples and reserved example email addresses. No private exports/dependencies tracked.
+- main and v2.0.0 pushed atomically; remote annotated tag resolves to
+  4eaae66acd9b63a551c5a33c26b8458e39562665 (implementation).
 - Actual availability, communication/reply rate and opportunity conversion: **UNMEASURED**.
 - Native source integration, macOS/Linux execution: **NOT_VERIFIED**.
 - Unit-test wall time is not a routing latency benchmark.
@@ -35,5 +39,5 @@ trusted user input, not calendar evidence. One ruleset does not capture every wo
 The bounded search returns no suggestion beyond its horizon instead of guessing.
 
 ## Next Action
-Complete publication checks, then evaluate a fixed private user-labeled
+Evaluate a fixed private user-labeled
 dataset without claiming real-world improvement from unit-test results.

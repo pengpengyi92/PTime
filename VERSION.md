@@ -1,6 +1,7 @@
 # PTime Version Record
 
 Current package version: **2.0.0**.
+Status: **CLOSED**, 2026-09-21; GitHub tag v2.0.0 verified.
 Canonical value: [VERSION](VERSION).
 Theme: Global Communication Timing Layer.
 

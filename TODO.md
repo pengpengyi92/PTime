@@ -11,7 +11,7 @@
 - [x] README, AGENT, VERSION, CHANGELOG and honest release history.
 - [x] Verify version consistency; 241 tests pass on both Python environments.
 - [x] Build/install wheel and smoke-test all commands outside checkout on both versions.
-- [ ] Public-data review; commit, push and verify v2.0.0 tag.
+- [x] Public-data review; commit/push and remote v2.0.0 tag verified at 4eaae66.
 
 ## P1 - Next Evidence
 - [ ] Validate one user-selected private normalized source export; no public personal data.
