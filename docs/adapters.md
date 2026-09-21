@@ -1,5 +1,8 @@
 # Local Contact Adapter Contract
 
+This is the legacy `contacts` contract retained from V0.1. For `talk` / `email` use
+the [V2 communication snapshot](v2-contract.md), which includes IDs, channels and a queue.
+
 V0.1 implements one narrow interface:
 
 ```python

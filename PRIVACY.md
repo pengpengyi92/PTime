@@ -8,6 +8,8 @@ PTime is a public software repository, not a public contact database.
 - `data/` is ignored except for the reviewed synthetic example and resource initializer.
 - Secrets, email addresses, phone numbers, credentials and session data are unnecessary.
 - No runtime HTTP client, authentication, scraping, telemetry or message delivery is included.
+- V2 queue records use contact IDs, not recipient addresses or message bodies.
+  SEND_NOW is advisory, never sending permission. Native P Email retains delivery details.
 - Reading a selected private file is explicit. Other project databases are not scanned.
 - Text and JSON output may reveal contact data. Do not share it without permission.
 - `.gitignore` is a safeguard, not access control or encryption. Inspect every staged diff;

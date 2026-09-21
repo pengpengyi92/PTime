@@ -1,0 +1,20 @@
+# Local wall-clock intervals. These are policy defaults, not verified availability.
+search_days: 8
+quiet_window: "23:00-24:00"
+early_window: "00:00-07:00"
+late_reply_window: "21:00-23:00"
+contexts:
+  professional: {windows: ["08:00-20:00"], working_days_only: true}
+  semi_professional: {windows: ["08:00-20:00"], working_days_only: true}
+  informal: {windows: ["09:00-21:00"], working_days_only: false}
+  personal: {windows: ["09:00-21:00"], working_days_only: false}
+synchronous_windows: ["09:00-12:00", "14:00-18:00"]
+channels:
+  email: {windows: ["09:00-18:00"], score: 1.0, synchronous: false}
+  linkedin: {windows: ["08:00-20:00"], score: 0.95, synchronous: false}
+  wechat: {windows: ["09:00-21:00"], score: 0.9, synchronous: false}
+  whatsapp: {windows: ["09:00-21:00"], score: 0.9, synchronous: false}
+  telegram: {windows: ["09:00-21:00"], score: 0.85, synchronous: false}
+  phone: {windows: ["09:00-18:00"], score: 0.8, synchronous: true}
+  video_call: {windows: ["09:00-18:00"], score: 0.85, synchronous: true}
+  in_person: {windows: ["09:00-18:00"], score: 0.8, synchronous: true}

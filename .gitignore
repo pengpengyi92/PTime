@@ -14,5 +14,6 @@ local/
 data/*
 !data/__init__.py
 !data/contacts.example.yaml
+!data/communication.example.yaml
 *.local.yaml
 *.local.json

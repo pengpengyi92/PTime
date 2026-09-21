@@ -1,21 +1,27 @@
 # TODO
 
-## P0 - V0.1 Closure
-- [x] Two callable agents, six validated models and nine IANA region configurations.
-- [x] Current-time / explicit-time CLI with JSON and useful errors.
-- [x] Configurable scores, eligibility gates and transparent explanations.
-- [x] Three normalized local adapters; empty-by-default contacts and opt-in synthetic demo.
-- [x] Regression tests for DST, midnight, boundaries, ranking, input and privacy safeguards.
-- [x] Build and test the installed wheel outside the source directory (Python 3.11 and 3.12).
-- [x] Verify staged publication contains only reviewed docs/code and synthetic contacts.
-- [x] Create/verify public GitHub PTime repository and push reviewed V0.1 (main).
+## P0 - V2.0 Closure
+- [x] Audit/fetch existing V0.1 baseline without changing related repositories.
+- [x] Extend Contact and add pending-action/routing contracts without breaking old commands.
+- [x] Five normalized local integrations and explicit mock source.
+- [x] Configurable eight-channel/four-context timing and next-window routing.
+- [x] talk/email text+JSON with empty defaults and synthetic demos.
+- [x] Hard gates and explicit expected-reply / confirmed-meeting exceptions.
+- [x] Channel, queue, context and DST-search regression tests; existing 124 tests retained.
+- [x] README, AGENT, VERSION, CHANGELOG and honest release history.
+- [x] Verify version consistency; 241 tests pass on both Python environments.
+- [x] Build/install wheel and smoke-test all commands outside checkout on both versions.
+- [ ] Public-data review; commit, push and verify v2.0.0 tag.
 
-## P1 - Evidence-Led Follow-Up
-- [ ] With user-selected private data, validate one normalized export from each real source.
-- [ ] Compare recommendations against a manually labeled fixed private set before tuning weights.
-- [ ] Define an opt-in reply/usefulness evaluation; current real-world outcome is UNMEASURED.
+## P1 - Next Evidence
+- [ ] Validate one user-selected private normalized source export; no public personal data.
+- [ ] Label a fixed private recommendation set; compare V0.1/V2 usefulness before tuning.
+- [ ] Measure false-positive timing recommendations with explicit feedback.
+- [ ] Test macOS/Linux and individual calendar/holiday assumptions before new integrations.
 
-## P2 - Only When Needed
-- [ ] Evaluate per-contact schedules and holiday calendars with DST/holiday regression fixtures.
-- [ ] Add opt-in source-specific exporters after documenting native field mappings and consent.
-- [ ] Design PMap/time-window consumption without coupling it to message sending.
+## P2 - Only With an Explicit Need
+- [ ] Source-specific export converters after verifying native schemas and permissions.
+- [ ] Opt-in calendar availability or PMap consumers with new acceptance tests.
+- [ ] Separate design and authorization for any future sending/scheduling system.
+
+V0.1 closure and its 124-test baseline remain preserved in releases/V0.1.md and the bootstrap log.

@@ -1,0 +1,58 @@
+# Entirely fictional. No real people, addresses or live accounts.
+contacts:
+  - id: demo-london
+    name: Example London Researcher
+    region: London
+    timezone: Europe/London
+    relationship_type: researcher
+    priority: P0
+    channels: [linkedin, email]
+    topics: [quant, research, career]
+    source_systems: [PGlobal, PConnection]
+    last_contact_at: "2026-09-10T12:00:00Z"
+    next_action: research_discussion
+    synthetic: true
+  - id: demo-boston
+    name: Example Boston Recruiter
+    region: Boston
+    timezone: America/New_York
+    relationship_type: recruiter
+    priority: P1
+    channels: [email]
+    topics: [research_engineering]
+    synthetic: true
+  - id: demo-shenzhen
+    name: Example Shenzhen Contact
+    region: Shenzhen
+    timezone: Asia/Shanghai
+    channels: [email]
+    synthetic: true
+  - id: demo-california
+    name: Example California Engineer
+    region: San Francisco
+    timezone: America/Los_Angeles
+    channels: [linkedin, phone]
+    next_action: research_discussion
+    synthetic: true
+  - id: demo-friend
+    name: Example Singapore Friend
+    region: Singapore
+    timezone: Asia/Singapore
+    relationship_type: friend
+    context: personal
+    channels: [whatsapp]
+    preferred_contact_windows: ["21:00-23:00"]
+    next_action: informal_chat
+    synthetic: true
+pending_actions:
+  - id: demo-boston-draft
+    contact_id: demo-boston
+    channel: email
+    kind: recruiting_message
+    status: draft
+    due_at: "2026-09-21T14:00:00Z"
+  - id: demo-shenzhen-draft
+    contact_id: demo-shenzhen
+    channel: email
+    kind: follow_up
+    status: draft

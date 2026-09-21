@@ -1,5 +1,13 @@
 # Time Semantics
 
+V2.0 future-window search preserves these instant semantics. It evaluates local rule
+boundaries with both fold values, UTC-round-trips each candidate, and detects timezone
+offset transitions to enter valid intervals whose local start fell in a spring gap.
+Personal preferences, pending not-before times and confirmed meeting starts also contribute
+candidates. Results include a full date and offset; no suggestion is generated past the
+bounded local-day search horizon. V2 exceptions are in [the timing contract](v2-contract.md);
+the conservative default policy described below remains the legacy `contacts` behavior.
+
 ## One Instant, Multiple Views
 
 The core works with aware Python datetimes. The CLI accepts:

@@ -42,7 +42,16 @@ def main() -> None:
         assert all(not row["calendar_verified"] for row in demo["recommendations"])
         current = invoke("now", cwd=directory)
         assert current["evaluated_at"]
-        print(f"Installed-wheel smoke PASS: Python {sys.version.split()[0]}, 9 regions, empty default, 4 synthetic contacts")
+        assert current["version"] == "2.0.0"
+        for command in ("talk", "email"):
+            assert invoke(command, cwd=directory)["total_decisions"] == 0
+        talk = invoke("talk", "--demo", "--at", at, cwd=directory)
+        assert talk["decision_counts"] == {"SEND_NOW": 3, "WAIT": 2}
+        email = invoke("email", "--demo", "--at", at, cwd=directory)
+        assert email["decision_counts"] == {"SEND_NOW": 1, "WAIT": 1}
+        assert email["deferred"][0]["next_window_local"] == "2026-09-22T09:00:00+08:00"
+        assert all(row["requires_human_approval"] for row in email["recommendations"])
+        print(f"Installed-wheel V2 smoke PASS: Python {sys.version.split()[0]}, all four commands, packaged channels, empty defaults and both synthetic demos")
 
 
 if __name__ == "__main__":

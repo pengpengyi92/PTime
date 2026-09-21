@@ -1,5 +1,11 @@
 # Architecture
 
+V0.1 foundations below remain in use. V2.0 adds:
+`integrations -> validated contact/action snapshot -> contact_router -> channel/context
+gates -> current decision / next-window search -> talk/email text or JSON`.
+See [V2 contract](v2-contract.md) for field, queue and timing semantics.
+The old recommender remains the compatibility policy for `contacts`.
+
 ```text
 CLI: explicit input + aware evaluation instant
  |

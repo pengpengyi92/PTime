@@ -9,6 +9,7 @@ import sys
 import yaml
 
 from ptime import __version__
+from ptime.cli_routing import COMMUNICATION_SOURCES, run_routing
 from ptime.adapters.base import LocalContactSource, parse_contacts
 from ptime.adapters.pglobal import PGlobalSource
 from ptime.adapters.plinkedin import PLinkedInSource
@@ -27,14 +28,20 @@ def parser() -> argparse.ArgumentParser:
     root = argparse.ArgumentParser(prog="ptime", description="Global time -> people -> suggested communication actions")
     root.add_argument("--version", action="version", version=__version__)
     sub = root.add_subparsers(dest="command", required=True)
-    for name in ("now", "contacts"):
+    for name in ("now", "contacts", "talk", "email"):
         command = sub.add_parser(name)
         command.add_argument("--at", help="ISO datetime; naive times use --base-timezone, DST ambiguity is rejected")
         command.add_argument("--base-timezone", help="IANA zone, default Asia/Shanghai")
-        command.add_argument("--config-dir", type=Path, help="Directory containing all three YAML config files")
+        command.add_argument("--config-dir", type=Path, help="Config directory; talk/email also require channels.yaml")
         command.add_argument("--json", action="store_true", help="Structured output; contains private names if supplied locally")
         if name == "now":
             command.add_argument("--regions", nargs="+", help="Region IDs, e.g. London NewYork")
+        elif name in {"talk", "email"}:
+            source = command.add_mutually_exclusive_group()
+            source.add_argument("--input", type=Path, help="Normalized communication YAML/JSON snapshot")
+            source.add_argument("--demo", action="store_true", help="Use fictional communication examples")
+            command.add_argument("--source", choices=list(COMMUNICATION_SOURCES), default="local")
+            command.add_argument("--limit", type=int, default=10)
         else:
             source = command.add_mutually_exclusive_group()
             source.add_argument("--contacts", type=Path, help="Explicit normalized YAML/JSON file")
@@ -53,6 +60,8 @@ def main(argv: list[str] | None = None) -> int:
         instant = parse_instant(args.at, base_zone)
         base = localize(instant, base_zone)
         common = {"version": __version__, "evaluated_at": instant.isoformat(), "base_timezone": base_zone, "base_time": base.isoformat(timespec="seconds"), "notice": NOTICE}
+        if args.command in {"talk", "email"}:
+            return run_routing(args, instant, settings, common)
         if args.command == "now":
             windows = TimeAdapterAgent(settings).run(instant, args.regions)
             if args.json:

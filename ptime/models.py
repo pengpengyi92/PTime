@@ -4,7 +4,10 @@ from dataclasses import dataclass, field
 from datetime import date, datetime
 import math
 
-from ptime.core.timezone import get_zone
+from ptime.core.timezone import aware_timestamp, get_zone, localize, wall_interval
+
+CHANNELS = {"email", "linkedin", "wechat", "whatsapp", "telegram", "phone", "video_call", "in_person"}
+CONTEXTS = {"professional", "semi_professional", "informal", "personal"}
 
 RELATIONSHIPS = {
     "friend", "researcher", "headhunter", "recruiter", "hr",
@@ -107,6 +110,13 @@ class Contact:
     do_not_contact: bool = False
     synthetic: bool = False
     source: str = "local"
+    id: str = ""
+    channels: tuple[str, ...] = ()
+    last_contact_at: datetime | None = None
+    next_action_due: datetime | None = None
+    preferred_contact_windows: tuple[str, ...] = ()
+    source_systems: tuple[str, ...] = ()
+    context: str = "professional"
 
     def __post_init__(self):
         for key in ("name", "location", "source"):
@@ -130,6 +140,100 @@ class Contact:
         if not isinstance(self.opportunities, (tuple, list)) or any(not isinstance(o, Opportunity) for o in self.opportunities):
             raise ValueError("opportunities must contain Opportunity objects")
         object.__setattr__(self, "opportunities", tuple(self.opportunities))
+        text(self.id, "id", allow_empty=True)
+        if self.context not in CONTEXTS:
+            raise ValueError("Unknown communication context")
+        for key in ("channels", "preferred_contact_windows", "source_systems"):
+            value = getattr(self, key)
+            if not isinstance(value, (list, tuple)):
+                raise ValueError(f"{key} must be a list")
+            for item in value:
+                text(item, key)
+            if len(set(value)) != len(value):
+                raise ValueError(f"{key} must not contain duplicates")
+            object.__setattr__(self, key, tuple(value))
+        if set(self.channels) - CHANNELS:
+            raise ValueError("Unknown communication channel")
+        for window in self.preferred_contact_windows:
+            wall_interval(window)
+        for key in ("last_contact_at", "next_action_due"):
+            object.__setattr__(self, key, aware_timestamp(getattr(self, key), key))
+        if self.last_contact_at is not None:
+            contact_day = localize(self.last_contact_at, self.timezone).date()
+            if self.last_contact is not None and self.last_contact != contact_day:
+                raise ValueError("last_contact and last_contact_at disagree in the contact timezone")
+            object.__setattr__(self, "last_contact", contact_day)
+
+
+@dataclass(frozen=True)
+class PendingAction:
+    id: str
+    contact_id: str
+    channel: str
+    kind: str = "follow_up"
+    context: str = "professional"
+    status: str = "draft"
+    priority: str | None = None
+    due_at: datetime | None = None
+    not_before: datetime | None = None
+    expected_reply: bool = False
+    scheduled_at: datetime | None = None
+    scheduled_until: datetime | None = None
+    confirmed: bool = False
+
+    def __post_init__(self):
+        text(self.id, "action.id")
+        text(self.contact_id, "action.contact_id")
+        if self.channel not in CHANNELS or self.context not in CONTEXTS:
+            raise ValueError("Unknown action channel or context")
+        if self.kind not in ACTIONS | {"reply"}:
+            raise ValueError("Unknown action kind")
+        if self.status not in {"draft", "pending", "sent", "completed", "canceled"}:
+            raise ValueError("Unknown action status")
+        if self.priority is not None and self.priority not in PRIORITIES:
+            raise ValueError("Invalid action priority")
+        if type(self.expected_reply) is not bool or type(self.confirmed) is not bool:
+            raise ValueError("expected_reply and confirmed must be booleans")
+        for key in ("due_at", "not_before", "scheduled_at", "scheduled_until"):
+            object.__setattr__(self, key, aware_timestamp(getattr(self, key), key))
+        if (self.scheduled_at is None) != (self.scheduled_until is None):
+            raise ValueError("Scheduled actions require both start and end")
+        if self.scheduled_at and not self.scheduled_at < self.scheduled_until:
+            raise ValueError("Scheduled end must be after start")
+        if self.confirmed and self.scheduled_at is None:
+            raise ValueError("confirmed requires an explicit scheduled interval")
+        if self.scheduled_at and self.channel not in {"phone", "video_call", "in_person"}:
+            raise ValueError("Scheduled meeting intervals require a synchronous channel")
+        if self.expected_reply and self.kind != "reply":
+            raise ValueError("expected_reply must describe a reply, not a new outreach")
+
+
+@dataclass(frozen=True)
+class RoutedAction:
+    contact_id: str
+    person: str
+    region: str
+    timezone: str
+    local_datetime: str
+    action_id: str
+    channel: str | None
+    context: str
+    kind: str
+    decision: str
+    score: float
+    reasons: tuple[str, ...]
+    suggested_action: str
+    next_window_at: str | None = None
+    next_window_local: str | None = None
+    components: dict[str, float] = field(default_factory=dict)
+    topics: tuple[str, ...] = ()
+    source_systems: tuple[str, ...] = ()
+    due_at: str | None = None
+    overdue: bool = False
+    synthetic: bool = False
+    requires_human_approval: bool = True
+    calendar_verified: bool = False
+    available_channels: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)

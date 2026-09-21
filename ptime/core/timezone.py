@@ -2,6 +2,7 @@
 
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
+import re
 
 
 def get_zone(name: str) -> ZoneInfo:
@@ -51,3 +52,30 @@ def parse_instant(value: str | None, base_timezone: str = "Asia/Shanghai") -> da
 
 def localize(instant: datetime, timezone_name: str) -> datetime:
     return require_aware(instant).astimezone(get_zone(timezone_name))
+
+
+def aware_timestamp(value: str | datetime | None, label: str) -> datetime | None:
+    if value is None:
+        return None
+    if isinstance(value, str):
+        if "T" not in value:
+            raise ValueError(f"{label} requires an offset-aware ISO datetime")
+        try:
+            value = datetime.fromisoformat(value)
+        except ValueError as exc:
+            raise ValueError(f"{label} requires an offset-aware ISO datetime") from exc
+    return require_aware(value).astimezone(timezone.utc)
+
+
+def wall_interval(value: str) -> tuple[int, int]:
+    if not isinstance(value, str) or not re.fullmatch(r"\d{2}:\d{2}-\d{2}:\d{2}", value):
+        raise ValueError("Contact windows must use HH:MM-HH:MM")
+    def minutes(clock: str) -> int:
+        hour, minute = map(int, clock.split(":"))
+        if not 0 <= hour <= 24 or not 0 <= minute < 60 or (hour == 24 and minute):
+            raise ValueError("Invalid contact window clock")
+        return hour * 60 + minute
+    start, end = map(minutes, value.split("-"))
+    if not 0 <= start < end <= 1440:
+        raise ValueError("Contact windows must increase within a day; split overnight windows")
+    return start, end

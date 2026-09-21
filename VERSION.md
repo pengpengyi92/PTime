@@ -1,14 +1,11 @@
-# PTime V0.1
+# PTime Version Record
 
-Status: CLOSED (2026-09-21). Package version: 0.1.0.
-Repository: https://github.com/pengpengyi92/PTime (public, main).
+Current package version: **2.0.0**.
+Canonical value: [VERSION](VERSION).
+Theme: Global Communication Timing Layer.
 
-Time -> Availability -> People -> Opportunity -> Action.
+Public repository: https://github.com/pengpengyi92/PTime
+History: 0.1.0 -> 2.0.0 (no 1.0 release).
 
-Scope: deterministic timezone-aware agents, normalized local-file adapters, CLI,
-configurable heuristic ranking and synthetic regression tests.
-
-No real calendar availability, live external API, outreach automation, holiday calendar,
-personal contact ingestion or website is included.
-
-Implementation and verification status: see BENCHMARK_CARD.md and logs/.
+See CHANGELOG.md, AGENT.md, releases/V2.0.md and BENCHMARK_CARD.md for implementation,
+behavior and measured acceptance evidence. Legacy V0.1 history remains in releases/V0.1.md.
