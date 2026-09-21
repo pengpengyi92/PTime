@@ -30,6 +30,7 @@ Protocol:
 - Installed smoke verifies current time, nine regions, empty contact default and explicit
   four-contact synthetic demo with two eligible/two deferred at the fixed instant.
 - Public staging review: 41 files, no ignored/private paths or credential/email patterns.
+- Public GitHub repository verified: pengpengyi92/PTime, PUBLIC, default main.
 - macOS/Linux execution and native CRM exports: **NOT_VERIFIED**.
 - The dated fixture yields London 15:15 and NY/Boston 10:15, with SG evening deferred.
 - Actual contact availability, response rate and opportunity conversion: **UNMEASURED**.
@@ -43,5 +44,5 @@ exports require manual preparation but avoid hidden APIs and accidental private-
 
 ## Next Action
 
-Complete remote publication verification; then validate a user-selected private fixture without
+Validate a user-selected private fixture without
 publishing contacts or claiming a real-world ranking improvement.

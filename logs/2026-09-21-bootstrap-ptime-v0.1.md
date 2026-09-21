@@ -56,4 +56,19 @@ Also required aware instants for empty region selections.
 - No macOS/Linux run, real contact import, calendar check, website or automatic message.
 
 Real-world availability and communication outcomes remain UNMEASURED.
-Remote repository creation/push is the remaining closure step.
+
+## Publication and Closure
+
+- Created https://github.com/pengpengyi92/PTime and pushed main.
+- Bootstrap commit: 5825365 (feat: bootstrap PTime global time adapter).
+- Read-back confirmed nameWithOwner pengpengyi92/PTime, visibility PUBLIC, default main.
+- Used the existing P-Global Git author name and GitHub noreply address, configured locally
+  in PTime only. No global Git configuration or related repository content was changed.
+- Installed console entry point reports 0.1.0.
+- The workspace project registry now includes PTime and its remaining private-export work.
+
+**PTIME V0.1 CLOSED**
+
+Scope closed: local software, documented adapters, tests and public source publication.
+Real contacts are deliberately not loaded; this is not a claim of connected CRM accounts
+or demonstrated communication outcomes. No website was requested or deployed.

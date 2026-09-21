@@ -8,7 +8,7 @@
 - [x] Regression tests for DST, midnight, boundaries, ranking, input and privacy safeguards.
 - [x] Build and test the installed wheel outside the source directory (Python 3.11 and 3.12).
 - [x] Verify staged publication contains only reviewed docs/code and synthetic contacts.
-- [ ] Create/verify public GitHub PTime repository and push reviewed V0.1.
+- [x] Create/verify public GitHub PTime repository and push reviewed V0.1 (main).
 
 ## P1 - Evidence-Led Follow-Up
 - [ ] With user-selected private data, validate one normalized export from each real source.
