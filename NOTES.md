@@ -38,3 +38,40 @@ Do not require returning to a specific physical base before starting execution. 
 - **PMF / PMap**: travel can coexist with execution instead of pausing it.
 
 > Travel changes where we execute, not whether we execute.
+
+# Relationship Timing Layer
+
+## Principle
+**PTime = Timezone Adapter + Relationship Timing Layer.**
+
+PTime should help decide not only *what time it is elsewhere*, but also *when to connect, reconnect, follow up, interview, or send a lightweight greeting*.
+
+## Core responsibilities
+- Connect people at the right time.
+- Arrange and prepare interview timing across time zones.
+- Manage daily follow-up cadence.
+- Surface natural reconnect windows.
+- Use festivals and milestones as lightweight relationship-maintenance triggers.
+- Route communication through the appropriate channel: WeChat, LinkedIn, email, calendar, or other connected systems.
+
+## Relationship rhythm
+**Greeting = maintenance.  
+Follow-up = progress.  
+Meeting / interview = conversion.  
+Artifact / progress update = value creation.**
+
+A festival greeting is useful because it is low-friction and natural, but it should not replace daily work. Durable relationships are built by consistent follow-up, concrete progress, useful questions, meetings, and shared artifacts.
+
+## Timing pipeline
+Festival / milestone / elapsed time / reply / timezone opening
+-> identify relevant contact
+-> choose communication intent
+-> choose channel
+-> human-approved message
+-> send
+-> record response
+-> schedule next follow-up
+-> meeting / interview / collaboration when appropriate.
+
+## Operating principle
+Use PTime continuously. Good relationship management is not a once-a-year greeting task; it is an ongoing timing and follow-up system.
