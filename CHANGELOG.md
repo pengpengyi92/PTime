@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.1.0] - 2026-09-25
+
+### Added
+- Four layered calendars (Chinese/Greater China, shared, US, UK) with 15 canonical
+  events, explicit date coverage, source metadata and separate official periods.
+- Fifty-four general/professional/reconnect templates, Chinese and English.
+- `festivals`, `greetings`, `touchpoints`, `followups` read-only CLI commands.
+- Explicit per-contact festival opt-in; canonical-cycle and cross-channel dedup;
+  recent-contact, active-conversation and template-reuse suppression.
+- Reply/user-action-driven follow-up timing, contact-wide cooldown, stale-reply
+  checks, soft due/urgency metadata, terminal state and sender-rest protection.
+- PCV reference-only asset contract, synthetic fixture, expanded installed-wheel smoke.
+
+### Compatibility and Safety
+- Existing four commands and V2.0 schemas/policies retained. No new dependencies.
+- Festivals are not permission to send; geography is not inferred observance.
+- Lunar/UK dated tables cover 2026-2027 only; unknown years are explicit.
+- No runtime network, persistent contact store, automation, scheduling or messages.
+- Initial baseline 241 tests; expanded suite 342 PASS on Python 3.11.3.
+  Python 3.12 revalidation is environment-blocked; see the implementation log.
+
 ## [2.0.0] - 2026-09-21
 
 ### Added

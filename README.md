@@ -1,6 +1,6 @@
 # PTime
 
-**V2.0 - Global Time & Communication Adapter**
+**V2.1 - Festival, Greeting & Follow-up Timing**
 
 PTime converts time into actionable global communication windows.
 
@@ -112,6 +112,10 @@ These are fictional people, not live contacts.
 | contacts | Compatible V0.1 contact ranking | private/contacts.yaml |
 | talk | Best channel per unqueued contact; evaluate queued actions | private/communication.yaml |
 | email | Time the explicit email draft/action queue only | private/communication.yaml |
+| festivals | Layered calendar context | Packaged public configuration |
+| greetings | Preview bilingual general/professional/reconnect copy | Packaged public configuration |
+| touchpoints | Explicitly opted-in relationship timing | private/touchpoints.yaml |
+| followups | Reply/user-request-driven future windows | private/touchpoints.yaml |
 
 Paths are relative to the working directory. Missing default input yields empty results,
 not fabricated contacts; an explicitly requested missing file fails.
@@ -169,7 +173,7 @@ Scores are **uncalibrated heuristics**, not availability or response probabiliti
 
 PTime is not a CRM, email client, LinkedIn replacement or scheduler.
 - No APIs, scraping, outbound messages, automatic drafts, reminders or account discovery.
-- No holidays, leave, travel or actual personal-calendar verification.
+- Curated festival dates, NOT a complete leave/travel or personal-availability calendar.
 - Maximum 1 MB / 1,000 contacts / 1,000 pending actions per normalized local snapshot.
 - Only synthetic examples in Git. Real contacts and outputs stay in ignored private/.
 - Real-world communication effectiveness remains **UNMEASURED**.
@@ -180,8 +184,8 @@ See [privacy](PRIVACY.md), [DST semantics](docs/time-semantics.md),
 ## Version and Verification
 
 Version moves directly from **0.1.0 to 2.0.0** for this mission expansion; no V1.0 release
-is claimed. Read [AGENT.md](AGENT.md), [CHANGELOG.md](CHANGELOG.md), [VERSION](VERSION),
-and [release notes](releases/V2.0.md). Both V0.1 CLI commands remain available with
+is claimed. V2.1 is an additive minor upgrade. Read [AGENT.md](AGENT.md), [CHANGELOG.md](CHANGELOG.md), [VERSION](VERSION),
+and [release notes](releases/V2.1.md). Both V0.1 CLI commands remain available with
 their original conservative policy; V2 exceptions apply to talk/email.
 
 ```bash
@@ -190,7 +194,50 @@ python -m build --wheel
 ```
 
 After installing the built wheel rather than an editable checkout:
-`python scripts/smoke_installed.py` tests packaged defaults, both demos and all commands
+`python scripts/smoke_installed.py` tests packaged defaults, three demos and all eight commands
 from a temporary directory. Measured results and limitations are recorded in
 [BENCHMARK_CARD.md](BENCHMARK_CARD.md), [TODO.md](TODO.md) and the
-[upgrade log](logs/2026-09-21-ptime-v2-upgrade.md).
+[V2.1 implementation log](logs/2026-09-25-ptime-v2.1-implementation.md).
+The earlier [V2.0 upgrade log](logs/2026-09-21-ptime-v2-upgrade.md) remains preserved.
+
+## Festival Timing & Relationship Touchpoints
+
+V2.0 = timezone / region / channel timing.
+V2.1 = timezone + festival + follow-up + relationship-maintenance timing.
+
+```text
+WHO x WHERE x WHEN x HOW x WHY NOW -> Advisory Action
+Self Introduction -> Conversation -> Follow-up -> Festival / Periodic Touchpoint
+-> Reconnect -> DD / Coffee Chat / Collaboration / Recruiting
+```
+
+PCV Self-Introduction is a first-contact communication asset. PTime General Greeting
+is a relationship-maintenance timing asset: PCV decides WHAT, PTime decides WHEN.
+Only an opaque asset reference is consumed; no CV or private repository is opened.
+
+```bash
+ptime festivals --region china --days 30
+ptime festivals --region united_kingdom --days 60 --include-non-greeting
+ptime festivals --region united_states --days 60
+ptime greetings --festival mid_autumn --style general --locale zh-CN
+ptime greetings --festival christmas --style professional --locale en
+ptime touchpoints --festival mid_autumn --demo --at 2026-09-25T10:00+08:00 --json
+ptime followups --demo --at 2026-09-25T10:00+08:00 --json
+```
+
+Four calendar layers, 15 canonical events and 54 generic bilingual templates.
+Lunar/UK dated tables cover 2026-2027; unknown years are reported, not guessed.
+Shared festivals have one ID across views. Festival day and official holiday period
+are separate. UK sample means England/Wales. Non-greeting holidays are not outreach
+triggers. Source citations and scope are in [festival sources](docs/festival-sources.md).
+
+No contact is opted in based on location. Explicit festival preferences are required.
+One greeting per contact/cycle across all channels; recent contacts and active
+conversations are suppressed. SUGGEST never authorizes sending. No-reply never
+causes automatic repeated follow-ups. Explicit reply/user action may open an advisory
+follow-up after cooldown, V2 policy checks, and both recipient/sender rest protection.
+
+Previewing does not write history. After actual human-approved interaction, update
+the private snapshot. No scheduler, auto-sender or hidden relationship storage.
+See [V2.1 contract](docs/v2.1-contract.md), [fictional example](data/touchpoints.example.yaml)
+and [V2.1 release](releases/V2.1/README.md).

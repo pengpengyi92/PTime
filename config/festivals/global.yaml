@@ -1,0 +1,60 @@
+{
+  "views": [
+    "global"
+  ],
+  "include": [],
+  "defaults": {
+    "locale": "en",
+    "country_or_region": "GLOBAL",
+    "region_tags": [
+      "GLOBAL"
+    ],
+    "calendar_type": "shared",
+    "default_timezone": "UTC",
+    "source_note": "Gregorian fixed dates; calendar context only. Retrieval 2026-09-25. https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+  },
+  "festivals": [
+    {
+      "id": "new_year",
+      "name": "New Year",
+      "canonical_name": "Gregorian New Year",
+      "cultural_date_rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      },
+      "official_holiday_period": [
+        {
+          "region": "CN",
+          "start": "2026-01-01",
+          "end": "2026-01-03",
+          "source_note": "2026 CN schedule, not an individual's availability: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm"
+        }
+      ]
+    },
+    {
+      "id": "christmas",
+      "name": "Christmas",
+      "canonical_name": "Christmas",
+      "cultural_date_rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      },
+      "official_holiday_period": [
+        {
+          "region": "GB-ENG-WLS",
+          "start": "2026-12-25",
+          "end": "2026-12-25",
+          "source_note": "England/Wales, not all UK divisions: https://www.gov.uk/bank-holidays"
+        },
+        {
+          "region": "GB-ENG-WLS",
+          "start": "2027-12-27",
+          "end": "2027-12-27",
+          "source_note": "England/Wales, not all UK divisions: https://www.gov.uk/bank-holidays"
+        }
+      ]
+    }
+  ]
+}

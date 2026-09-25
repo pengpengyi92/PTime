@@ -1,5 +1,10 @@
 # PTime V2.1 — Festival Timing, General Greeting & Follow-up Upgrade
 
+Implementation note, 2026-09-25: this is the preserved original remote plan.
+The later user brief is [archived here](../../docs/PTIME_V2.1_USER_BRIEF.md).
+Execution and test results are in [the implementation log](../../logs/2026-09-25-ptime-v2.1-implementation.md).
+The PLANNED metadata below describes the source specification, not current release status.
+
 Status: PLANNED
 Target version: 2.1.0
 Plan date: 2026-09-25

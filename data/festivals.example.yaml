@@ -1,0 +1,17 @@
+# Configuration example only; add a complete calendar file under private/config/festivals/.
+# Extensibility is declarative; this fictional date is NOT a sourced public holiday.
+views: [example_region]
+include: [new_year]
+defaults:
+  locale: en
+  country_or_region: EXAMPLE
+  region_tags: [EXAMPLE]
+  calendar_type: custom
+  default_timezone: UTC
+  source_note: Fictional custom demonstration; not a real public holiday.
+festivals:
+  - id: example_event
+    name: Fictional Community Day
+    canonical_name: Fictional Community Day
+    cultural_date_rule: {type: fixed, month: 6, day: 1}
+    greeting_appropriate: false

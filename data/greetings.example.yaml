@@ -1,0 +1,10 @@
+templates:
+  - id: example.personalized
+    festival_id: new_year
+    style: general
+    locale: en
+    audience: general
+    channel: any_async
+    message: 'Happy New Year, {display_name}. Wishing you a peaceful year ahead.'
+    personalization_slots: [display_name]
+    active: true

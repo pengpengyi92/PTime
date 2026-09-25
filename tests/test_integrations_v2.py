@@ -7,6 +7,7 @@ import pytest
 import yaml
 
 from ptime.__main__ import main
+from ptime import __version__
 from ptime.core.channels import load_channels
 from ptime.integrations.base import MockCommunicationSource, parse_snapshot
 from ptime.integrations.pemail import PEmailSource
@@ -87,7 +88,8 @@ def test_cli_empty_by_default_and_no_network(command, tmp_path, monkeypatch, cap
     assert main([command, "--json"]) == 0
     data = json.loads(capsys.readouterr().out)
     assert data["total_decisions"] == 0 and data["recommendations"] == []
-    assert data["version"] == "2.0.0"
+    assert data["version"] == __version__
+    assert data["schema_version"] == "2.0"
     assert "No messages sent" in data["notice"]
 
 

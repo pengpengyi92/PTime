@@ -1,0 +1,202 @@
+{
+  "templates": [
+    {
+      "id": "mid_autumn.general.en",
+      "festival_id": "mid_autumn",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Mid-Autumn Festival and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "mid_autumn.general.zh-CN",
+      "festival_id": "mid_autumn",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "中秋快乐！祝你和家人节日愉快，事事顺心，最近一切都好～🌕🥮",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "spring_festival.general.en",
+      "festival_id": "spring_festival",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Lunar New Year and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "spring_festival.general.zh-CN",
+      "festival_id": "spring_festival",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你新春快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "lantern.general.en",
+      "festival_id": "lantern",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Lantern Festival and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "lantern.general.zh-CN",
+      "festival_id": "lantern",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你元宵节快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "dragon_boat.general.en",
+      "festival_id": "dragon_boat",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Dragon Boat Festival and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "dragon_boat.general.zh-CN",
+      "festival_id": "dragon_boat",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你端午节快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "national_day.general.en",
+      "festival_id": "national_day",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy National Day and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "national_day.general.zh-CN",
+      "festival_id": "national_day",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你国庆节快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "new_year.general.en",
+      "festival_id": "new_year",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy New Year and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "new_year.general.zh-CN",
+      "festival_id": "new_year",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你新年快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "christmas.general.en",
+      "festival_id": "christmas",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Christmas and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "christmas.general.zh-CN",
+      "festival_id": "christmas",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你圣诞节快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "thanksgiving.general.en",
+      "festival_id": "thanksgiving",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Thanksgiving and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "thanksgiving.general.zh-CN",
+      "festival_id": "thanksgiving",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你感恩节快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "easter.general.en",
+      "festival_id": "easter",
+      "style": "general",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Easter and a peaceful time with those close to you.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "easter.general.zh-CN",
+      "festival_id": "easter",
+      "style": "general",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你复活节快乐，平安顺心，假期愉快！",
+      "personalization_slots": [],
+      "active": true
+    }
+  ]
+}

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pengyi-ptime"
-version = "2.0.0"
+version = "2.1.0"
 description = "Global time and communication window adapter"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -17,12 +17,12 @@ dev = ["pytest>=8,<10", "build>=1,<2"]
 ptime = "ptime.__main__:main"
 
 [tool.setuptools]
-packages = ["ptime", "ptime.agents", "ptime.adapters", "ptime.integrations", "ptime.core", "ptime_defaults", "ptime_examples"]
+packages = ["ptime", "ptime.agents", "ptime.adapters", "ptime.integrations", "ptime.core", "ptime.festivals", "ptime.greetings", "ptime.followups", "ptime_defaults", "ptime_defaults.festivals", "ptime_defaults.greetings", "ptime_examples"]
 package-dir = {ptime_defaults = "config", ptime_examples = "data"}
 
 [tool.setuptools.package-data]
-ptime_defaults = ["*.yaml"]
-ptime_examples = ["contacts.example.yaml", "communication.example.yaml"]
+ptime_defaults = ["*.yaml", "festivals/*.yaml", "greetings/*.yaml"]
+ptime_examples = ["contacts.example.yaml", "communication.example.yaml", "festivals.example.yaml", "greetings.example.yaml", "touchpoints.example.yaml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

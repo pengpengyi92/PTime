@@ -15,5 +15,8 @@ data/*
 !data/__init__.py
 !data/contacts.example.yaml
 !data/communication.example.yaml
+!data/festivals.example.yaml
+!data/greetings.example.yaml
+!data/touchpoints.example.yaml
 *.local.yaml
 *.local.json

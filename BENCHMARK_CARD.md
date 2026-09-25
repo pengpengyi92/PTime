@@ -1,4 +1,51 @@
-# Benchmark Card - PTime V2.0
+# Benchmark Card - PTime V2.1
+
+## Baseline
+V2.0 local f347fa7: 241 tests PASS on Python 3.11.3 / Windows (3.22s).
+Remote documentation was fast-forwarded to 3ae8b04, then bf8d4f2. The latter's
+V2.2 plans remain plans, not implemented release claims.
+
+## Change
+Four calendars, 15 canonical festivals, 54 bilingual templates, explicit touchpoint
+preferences/history and reply/user-action follow-up routing. Four additive CLI
+commands reuse V2 timing policy with sender-rest protection. No new dependency.
+
+## Measure
+Falsifiable question: do festival suggestions preserve existing timing/privacy gates
+while producing deterministic, source-supported calendar and follow-up output?
+Fixed synthetic evaluation instant: 2026-09-25T10:00+08:00. Retain the 241 baseline
+cases; add 101 date, DST, dedup, opt-in, cooldown, rendering and invalid-input cases.
+Build the 2.1.0 wheel; install without source/editable fallback and run all eight
+commands from a temporary working directory. Review changed public files and links.
+
+## Result
+- Final regression: **342 passed in 3.81s**, Python 3.11.3 / Windows.
+- Versioned 2.1.0 wheel built and installed; source-independent smoke **PASS**:
+  eight commands plus console entry point, four calendars, six bilingual/style
+  previews, empty defaults and three explicitly synthetic demos.
+- Fixed festival demo: SUGGEST 1, FOLLOW_UP_ELIGIBLE 1, GREETED 1, SKIP 1, BLOCKED 1.
+- Public change review: only fictional contact fixtures and generic templates;
+  no private exports, dependencies or credential-pattern matches. Local links pass.
+- Python 3.12 full regression **NOT_VERIFIED**: temporary-path permission failures;
+  elevated retry unavailable due approval-review usage limit. No bypass attempted.
+- macOS/Linux and native source integrations **NOT_VERIFIED**.
+- Actual availability, reply rates, productivity and relationship outcomes **UNMEASURED**.
+- Test wall time is not a routing throughput or latency benchmark.
+
+## Trade-off
+Conservative explicit opt-in and complete local history can suppress useful greetings.
+Lunar/UK dated rules cover 2026-2027 only; unknown years are visible, never invented.
+No full working-day calendar, inferred identity, actual calendar availability,
+persistent sender, or automatic outreach. A reply permits advice, not sending.
+
+## Next Action
+Publish and verify main/tag, retaining publication evidence in the implementation log.
+Then evaluate a fixed private user-labeled set and rerun Python 3.12 when permitted.
+Do not tune scores based solely on unit tests or claim improved communication outcomes.
+
+---
+
+# Historical Benchmark Card - PTime V2.0
 
 ## Baseline
 V0.1 commit d5844e3: two agents, nine regions, three local adapters, now/contacts.

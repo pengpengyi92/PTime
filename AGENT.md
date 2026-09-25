@@ -47,6 +47,23 @@ or WHAT ACTION. Otherwise it probably belongs elsewhere.
 - Real contacts, drafts and exported recommendations remain private and untracked.
 - No LLM, network client, scheduled sender, background worker or cloud deployment in V2.0.
 
+## V2.1 Festival and Follow-up Rules
+
+- Festivals are timing signals, not sending authority. Keep general greetings light;
+  never combine a holiday greeting with an aggressive job/referral ask.
+- Follow-up requires explicit reply state or separate user action. No reply is not
+  permission to chase. Re-running the CLI does not record a send or alter history.
+- Never infer religion, ethnicity, nationality or political identity from location.
+  Use explicit festival IDs/preferences; region filters are not personal opt-ins.
+- Preserve human approval. No autonomous outreach, mass-send loop or real contacts
+  in tracked fixtures. Keep all actual history in ignored private snapshots.
+- V2.0 timing restrictions remain authoritative. Do not sacrifice user sleep/rest
+  to catch another timezone; V2.1 also checks sender quiet hours.
+- Frequency overrides must be explicit input edits and cannot bypass hard blocks.
+- Separate cultural dates from official holiday periods. No guessed lunar dates;
+  unsupported years must be UNKNOWN. Keep source/date/scope in configuration.
+- PCV integration is reference-only: PTime decides WHEN; content systems decide WHAT.
+
 ## Version Protocol
 
 SemVer: PATCH = fixes/small rule changes, MINOR = new capability/adapter, MAJOR = mission

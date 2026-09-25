@@ -1,0 +1,202 @@
+{
+  "templates": [
+    {
+      "id": "mid_autumn.professional.en",
+      "festival_id": "mid_autumn",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Mid-Autumn Festival and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "mid_autumn.professional.zh-CN",
+      "festival_id": "mid_autumn",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "中秋快乐！祝你和家人节日愉快、诸事顺利。也很高兴之前有机会认识和交流，之后有机会再多聊聊！",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "spring_festival.professional.en",
+      "festival_id": "spring_festival",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Lunar New Year and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "spring_festival.professional.zh-CN",
+      "festival_id": "spring_festival",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你新春快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "lantern.professional.en",
+      "festival_id": "lantern",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Lantern Festival and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "lantern.professional.zh-CN",
+      "festival_id": "lantern",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你元宵节快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "dragon_boat.professional.en",
+      "festival_id": "dragon_boat",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Dragon Boat Festival and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "dragon_boat.professional.zh-CN",
+      "festival_id": "dragon_boat",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你端午节快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "national_day.professional.en",
+      "festival_id": "national_day",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy National Day and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "national_day.professional.zh-CN",
+      "festival_id": "national_day",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你国庆节快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "new_year.professional.en",
+      "festival_id": "new_year",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy New Year and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "new_year.professional.zh-CN",
+      "festival_id": "new_year",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你新年快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "christmas.professional.en",
+      "festival_id": "christmas",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Christmas and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "christmas.professional.zh-CN",
+      "festival_id": "christmas",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你圣诞节快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "thanksgiving.professional.en",
+      "festival_id": "thanksgiving",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Thanksgiving and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "thanksgiving.professional.zh-CN",
+      "festival_id": "thanksgiving",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你感恩节快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "easter.professional.en",
+      "festival_id": "easter",
+      "style": "professional",
+      "locale": "en",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "Wishing you a happy Easter and a peaceful time with those close to you. It was a pleasure to connect; I hope we have another chance to exchange ideas.",
+      "personalization_slots": [],
+      "active": true
+    },
+    {
+      "id": "easter.professional.zh-CN",
+      "festival_id": "easter",
+      "style": "professional",
+      "locale": "zh-CN",
+      "audience": "general",
+      "channel": "any_async",
+      "message": "祝你复活节快乐，平安顺心，假期愉快！ 很高兴之前有机会认识和交流，之后有机会再多聊聊。",
+      "personalization_slots": [],
+      "active": true
+    }
+  ]
+}

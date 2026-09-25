@@ -1,9 +1,9 @@
 # PTime V2.1 — Festival Timing, General Greeting & Follow-up
 
-Status: PLANNED
-Planned version: 2.1.0
+Status: IMPLEMENTED / FINAL RELEASE VERIFICATION
+Package version: 2.1.0
 Plan date: 2026-09-25
-Current stable version: 2.0.0
+Previous stable version: 2.0.0
 
 ## Why V2.1
 
@@ -28,7 +28,7 @@ Combined lifecycle:
 
 Self Introduction -> Conversation -> Follow-up -> Festival / Periodic Touchpoint -> Reconnect -> DD / Coffee Chat / Collaboration / Recruiting.
 
-## Planned calendar layers
+## Implemented calendar layers
 
 Chinese / Greater China:
 - Mid-Autumn Festival
@@ -55,9 +55,9 @@ United Kingdom:
 - Early May Bank Holiday
 - Spring Bank Holiday
 - Summer Bank Holiday
-- optional Boxing Day / region-specific variants
+- optional future Boxing Day / region-specific variants (not implemented)
 
-## Planned capabilities
+## Implemented capabilities
 
 - General / Professional / Reconnect greeting library
 - bilingual Chinese / English templates
@@ -72,9 +72,18 @@ United Kingdom:
 
 ## Version boundary
 
-This is a planned V2.1 release.
+Implementation and baseline tests were completed before atomically updating package
+version surfaces to 2.1.0. Final versioned wheel and public review pass. Remote ref
+verification is the last gate; do not mark CLOSED prematurely. Historical CODEX/plan notes are retained.
 
-Do not update the package version from 2.0.0 to 2.1.0 until implementation, tests, smoke checks, documentation, public-repo privacy review and release acceptance are complete.
+342 tests pass on Python 3.11.3; the source-independent final 2.1.0 wheel smoke passes
+all eight commands. Python 3.12 revalidation is blocked by temporary-directory access
+and unavailable approval review, not claimed as passed. The [implementation log](../../logs/2026-09-25-ptime-v2.1-implementation.md)
+tracks current final gates. See the [input contract](../../docs/v2.1-contract.md).
+
+Lunar festivals and UK variable dates are explicit 2026-2027 tables. Four calendar
+views share canonical IDs; 15 events and 54 templates. Full UK division calendars,
+China makeup working days and private availability are not implemented. No auto-send.
 
 ## Release goal
 

@@ -1,0 +1,119 @@
+{
+  "views": [
+    "china",
+    "chinese",
+    "greater_china"
+  ],
+  "include": [
+    "new_year"
+  ],
+  "defaults": {
+    "locale": "zh-CN",
+    "country_or_region": "CN/HK cultural dates",
+    "region_tags": [
+      "CN",
+      "HK",
+      "SG_CHINESE"
+    ],
+    "calendar_type": "chinese",
+    "default_timezone": "Asia/Shanghai",
+    "source_note": "HKO lunar dates, retrieved 2026-09-25; 2026-2027 only. https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2026e.txt ; https://www.hko.gov.hk/en/gts/time/calendar/text/files/T2027e.txt"
+  },
+  "festivals": [
+    {
+      "id": "mid_autumn",
+      "name": "Mid-Autumn Festival",
+      "canonical_name": "Mid-Autumn Festival",
+      "cultural_date_rule": {
+        "type": "dates",
+        "dates": {
+          2026: "2026-09-25",
+          2027: "2027-09-15"
+        }
+      },
+      "official_holiday_period": [
+        {
+          "region": "CN",
+          "start": "2026-09-25",
+          "end": "2026-09-27",
+          "source_note": "2026 CN schedule, not an individual's availability: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm"
+        }
+      ]
+    },
+    {
+      "id": "spring_festival",
+      "name": "Spring Festival / Lunar New Year",
+      "canonical_name": "Spring Festival",
+      "cultural_date_rule": {
+        "type": "dates",
+        "dates": {
+          2026: "2026-02-17",
+          2027: "2027-02-06"
+        }
+      },
+      "official_holiday_period": [
+        {
+          "region": "CN",
+          "start": "2026-02-15",
+          "end": "2026-02-23",
+          "source_note": "2026 CN schedule, not an individual's availability: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm"
+        }
+      ]
+    },
+    {
+      "id": "lantern",
+      "name": "Lantern Festival",
+      "canonical_name": "Lantern Festival",
+      "cultural_date_rule": {
+        "type": "dates",
+        "dates": {
+          2026: "2026-03-03",
+          2027: "2027-02-20"
+        }
+      }
+    },
+    {
+      "id": "dragon_boat",
+      "name": "Dragon Boat Festival",
+      "canonical_name": "Dragon Boat Festival",
+      "cultural_date_rule": {
+        "type": "dates",
+        "dates": {
+          2026: "2026-06-19",
+          2027: "2027-06-09"
+        }
+      },
+      "official_holiday_period": [
+        {
+          "region": "CN",
+          "start": "2026-06-19",
+          "end": "2026-06-21",
+          "source_note": "2026 CN schedule, not an individual's availability: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm"
+        }
+      ]
+    },
+    {
+      "id": "national_day",
+      "name": "National Day (China)",
+      "canonical_name": "China National Day",
+      "country_or_region": "CN",
+      "region_tags": [
+        "CN"
+      ],
+      "source_note": "2026 CN schedule, not an individual's availability: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm",
+      "cultural_date_rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      },
+      "official_holiday_period": [
+        {
+          "region": "CN",
+          "start": "2026-10-01",
+          "end": "2026-10-07",
+          "source_note": "2026 CN schedule, not an individual's availability: https://www.gov.cn/zhengce/zhengceku/202511/content_7047091.htm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "views": [
+    "united_states",
+    "us"
+  ],
+  "include": [
+    "new_year",
+    "christmas"
+  ],
+  "defaults": {
+    "locale": "en",
+    "country_or_region": "US",
+    "region_tags": [
+      "US"
+    ],
+    "calendar_type": "united_states",
+    "default_timezone": "America/New_York",
+    "source_note": "Cultural dates / weekday rules, NOT substituted employee leave dates. Retrieved 2026-09-25. https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/holidays-work-schedules-and-pay"
+  },
+  "festivals": [
+    {
+      "id": "thanksgiving",
+      "name": "Thanksgiving (US)",
+      "canonical_name": "US Thanksgiving",
+      "cultural_date_rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "weekday": 3,
+        "nth": 4
+      }
+    },
+    {
+      "id": "independence_day",
+      "name": "Independence Day (US)",
+      "canonical_name": "US Independence Day",
+      "cultural_date_rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 4
+      },
+      "greeting_appropriate": false,
+      "professional_greeting_appropriate": false,
+      "reconnect_appropriate": false,
+      "official_holiday_period": [
+        {
+          "region": "US-FEDERAL",
+          "start": "2026-07-03",
+          "end": "2026-07-03",
+          "source_note": "Gregorian fixed dates; calendar context only. Retrieval 2026-09-25. https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+        }
+      ]
+    },
+    {
+      "id": "memorial_day",
+      "name": "Memorial Day (US)",
+      "canonical_name": "US Memorial Day",
+      "cultural_date_rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "weekday": 0,
+        "nth": -1
+      },
+      "greeting_appropriate": false,
+      "professional_greeting_appropriate": false,
+      "reconnect_appropriate": false
+    },
+    {
+      "id": "labor_day",
+      "name": "Labor Day (US)",
+      "canonical_name": "US Labor Day",
+      "cultural_date_rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": 0,
+        "nth": 1
+      },
+      "greeting_appropriate": false,
+      "professional_greeting_appropriate": false,
+      "reconnect_appropriate": false
+    }
+  ]
+}

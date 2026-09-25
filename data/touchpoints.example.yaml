@@ -1,0 +1,17 @@
+# Fictional records only. Evaluate at 2026-09-25T10:00+08:00 for the dated demo.
+contacts:
+  - {id: demo-alumni, name: Fictional Alumni A, location: Shenzhen, timezone: Asia/Shanghai, relationship: alumni, channels: [wechat, email], context: professional, synthetic: true}
+  - {id: demo-replied, name: Fictional Researcher B, location: Hong Kong, timezone: Asia/Hong_Kong, relationship: researcher, channels: [email], context: professional, synthetic: true}
+  - {id: demo-no-reply, name: Fictional Contact C, location: London, timezone: Europe/London, channels: [email], synthetic: true}
+  - {id: demo-blocked, name: Fictional Contact D, location: Shenzhen, timezone: Asia/Shanghai, channels: [wechat], do_not_contact: true, synthetic: true}
+  - {id: demo-no-optin, name: Fictional Contact E, location: Shenzhen, timezone: Asia/Shanghai, channels: [wechat], synthetic: true}
+pending_actions: []
+preferences:
+  - {contact_id: demo-alumni, festival_ids: [mid_autumn, new_year], locale: zh-CN, style: professional, audience: alumni}
+  - {contact_id: demo-replied, festival_ids: [mid_autumn], locale: en}
+  - {contact_id: demo-no-reply, festival_ids: [mid_autumn], locale: en, style: reconnect}
+  - {contact_id: demo-blocked, festival_ids: [mid_autumn], locale: zh-CN}
+history:
+  - {contact_id: demo-replied, festival_id: mid_autumn, cycle: 'mid_autumn:2026', template_id: mid_autumn.general.en, channel: email, greeted_at: '2026-09-23T09:00:00+08:00', reply_state: replied, replied_at: '2026-09-23T12:00:00+08:00'}
+  - {contact_id: demo-no-reply, festival_id: mid_autumn, cycle: 'mid_autumn:2026', template_id: mid_autumn.reconnect.en, channel: email, greeted_at: '2026-09-23T10:00:00+01:00'}
+followups: []
