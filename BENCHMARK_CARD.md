@@ -26,6 +26,8 @@ commands from a temporary working directory. Review changed public files and lin
 - Fixed festival demo: SUGGEST 1, FOLLOW_UP_ELIGIBLE 1, GREETED 1, SKIP 1, BLOCKED 1.
 - Public change review: only fictional contact fixtures and generic templates;
   no private exports, dependencies or credential-pattern matches. Local links pass.
+- Main and annotated v2.1.0 pushed atomically; remote tag resolves to
+  54d5b21abf8e457881b0fe3402471474ad99e034, matching the local implementation.
 - Python 3.12 full regression **NOT_VERIFIED**: temporary-path permission failures;
   elevated retry unavailable due approval-review usage limit. No bypass attempted.
 - macOS/Linux and native source integrations **NOT_VERIFIED**.
@@ -39,8 +41,7 @@ No full working-day calendar, inferred identity, actual calendar availability,
 persistent sender, or automatic outreach. A reply permits advice, not sending.
 
 ## Next Action
-Publish and verify main/tag, retaining publication evidence in the implementation log.
-Then evaluate a fixed private user-labeled set and rerun Python 3.12 when permitted.
+Evaluate a fixed private user-labeled set and rerun Python 3.12 when permitted.
 Do not tune scores based solely on unit tests or claim improved communication outcomes.
 
 ---

@@ -11,7 +11,7 @@
 - [x] Candidate wheel smoke PASS outside checkout for eight commands and console entry point.
 - [x] Version surfaces updated together only after implementation/tests.
 - [x] Final 2.1.0 wheel smoke, public-diff review and final test rerun.
-- [ ] Commit/push release and verify remote v2.1.0 before marking CLOSED.
+- [x] Commit/push release and verify remote v2.1.0 at 54d5b21 before marking CLOSED.
 
 ## P0 - V2.0 Closure
 - [x] Audit/fetch existing V0.1 baseline without changing related repositories.

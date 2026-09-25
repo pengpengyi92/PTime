@@ -12,7 +12,7 @@ Retain the historical V0.1 commands while adding channel-aware talk/email routin
 
 ## PTime V2.1 Festival Timing
 
-Status: IMPLEMENTED; final publication verification pending, 2026-09-25.
+Status: CLOSED / PUBLISHED; main and v2.1.0 verified at 54d5b21, 2026-09-25.
 
 Read and implement:
 - docs/PTIME_V2.1_FESTIVAL_TIMING_CODEX_SPEC.md
@@ -29,5 +29,6 @@ Add festival-aware relationship timing, Chinese/Global calendars, General Greeti
 
 Version rule:
 Implementation and baseline tests were completed before updating all version surfaces
-to 2.1.0. Final versioned wheel/test/publication gates are tracked in VERSION.md.
+to 2.1.0. Final versioned wheel/test/publication gates passed as recorded in VERSION.md.
+Python 3.12/platform limitations remain explicit; V2.2 documents are planning-only.
 Do not overwrite the historical V2.0 or V2.1 plan documents.

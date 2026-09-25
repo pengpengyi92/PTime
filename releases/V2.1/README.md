@@ -1,6 +1,6 @@
 # PTime V2.1 — Festival Timing, General Greeting & Follow-up
 
-Status: IMPLEMENTED / FINAL RELEASE VERIFICATION
+Status: CLOSED / PUBLISHED (documented environment limits retained)
 Package version: 2.1.0
 Plan date: 2026-09-25
 Previous stable version: 2.0.0
@@ -73,8 +73,9 @@ United Kingdom:
 ## Version boundary
 
 Implementation and baseline tests were completed before atomically updating package
-version surfaces to 2.1.0. Final versioned wheel and public review pass. Remote ref
-verification is the last gate; do not mark CLOSED prematurely. Historical CODEX/plan notes are retained.
+version surfaces to 2.1.0. Final versioned wheel, public review and remote refs
+pass. Main and v2.1.0 were atomically published and verified at 54d5b21.
+Historical CODEX/plan notes are retained; V2.2 remains planning-only.
 
 342 tests pass on Python 3.11.3; the source-independent final 2.1.0 wheel smoke passes
 all eight commands. Python 3.12 revalidation is blocked by temporary-directory access
