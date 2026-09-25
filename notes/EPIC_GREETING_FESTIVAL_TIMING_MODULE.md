@@ -67,3 +67,30 @@ Add festival-aware communication timing on top of PTime V2.0's timezone/channel 
 Chinese Calendar + Global Calendar become first-class timing sources.
 General Greeting becomes a reusable template system.
 Festival touchpoints should be advisory and human-approved.
+
+## Expanded PTime role
+
+PTime should increasingly manage the full timing layer around people:
+- connection timing;
+- interview scheduling and preparation windows;
+- daily follow-up cadence;
+- festival greetings;
+- reconnect windows;
+- post-reply follow-up;
+- progress / artifact update timing.
+
+The system should distinguish intent:
+- **maintenance**: lightweight greeting or check-in;
+- **reconnect**: reopen a dormant conversation;
+- **follow-up**: move an existing thread forward;
+- **conversion**: arrange a meeting, interview, DD call, or collaboration;
+- **value update**: return with new progress, evidence, or artifacts.
+
+## Design principle
+
+Festival greetings are useful accelerators, but daily follow-up remains the main relationship engine.
+
+Greeting -> maintenance / reconnect.
+Daily follow-up -> progress.
+Interview / meeting -> conversion.
+Artifact / progress update -> value creation.
