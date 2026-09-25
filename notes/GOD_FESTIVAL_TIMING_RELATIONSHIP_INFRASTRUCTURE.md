@@ -59,3 +59,31 @@ WHEN by timezone
 + WHEN by festival / relationship timing.
 
 The goal is not mass messaging. The goal is timely, context-aware relationship maintenance.
+
+## Relationship Timing Layer
+
+PTime's long-run purpose is broader than a timezone utility. It should act as the timing layer for human connection and opportunity execution.
+
+PTime helps answer:
+- Who should be contacted now?
+- Is this a maintenance touch, reconnect, follow-up, interview, or collaboration step?
+- Which timezone window is appropriate?
+- Which channel is appropriate?
+- What is the next follow-up date after this interaction?
+- Is there a natural festival, milestone, reply, or elapsed-time trigger?
+
+## Core rhythm
+
+**Greeting = maintenance.  
+Follow-up = progress.  
+Meeting / interview = conversion.  
+Artifact / progress update = value creation.**
+
+Festival greeting is a legitimate relationship primitive because it creates a natural low-friction touchpoint. But daily follow-up has higher long-run importance: consistent interaction and useful progress create durable connection.
+
+## North-star behavior
+
+Use PTime habitually as a people-and-opportunity timing system:
+Connect -> Follow up -> Reconnect -> Arrange -> Meet -> Update -> Follow up again.
+
+PTime should make relationship continuity systematic without making communication mechanical.
