@@ -200,6 +200,21 @@ from a temporary directory. Measured results and limitations are recorded in
 [V2.1 implementation log](logs/2026-09-25-ptime-v2.1-implementation.md).
 The earlier [V2.0 upgrade log](logs/2026-09-21-ptime-v2-upgrade.md) remains preserved.
 
+## AlphaTime — Super Time Density
+
+PTime also tracks a higher-order timing concept: **AlphaTime** — a rare window
+where time, location, people, institutional calendars and preparedness combine
+to create unusually high opportunity density.
+
+> **精神时光屋 = 超级时间密度。**
+
+The operational test is: if delaying this window makes the same opportunity
+materially harder or more expensive to reproduce, protect it as AlphaTime.
+
+The 2026-10-01 to 2026-10-07 National Day / Shenzhen-Hong Kong execution window
+is recorded as a reference case in
+[AlphaTime — Super Time Density](logs/2026-09-30-alphatime-super-time-density.md).
+
 ## Festival Timing & Relationship Touchpoints
 
 V2.0 = timezone / region / channel timing.
