@@ -101,6 +101,37 @@ Priority rules:
 
 AlphaTime should be filled first with actions that require the window to exist.
 
+## Field Detection — AlphaTime Can Be Felt Before It Is Measured
+
+AlphaTime is not only calendar-derived. A physical environment can create an
+early **onset signal** before a formal score exists.
+
+Reference field case: Shekou / Sea World / COMMUNE.
+
+The user reported that the corridor felt simultaneously:
+
+- higher quality;
+- higher density;
+- more decision-oriented;
+- more action-oriented;
+- easier for turning observations into immediate push.
+
+This creates a practical detection heuristic:
+
+```text
+High Quality
++ High Density
++ Clear Decision
++ Immediate Push
+= AlphaTime onset candidate
+```
+
+When this cluster appears, PTime should ask whether the next hours are unusually
+expensive to waste. If yes, switch to Critical Protection Mode and route the
+window toward irreplaceable actions.
+
+PMAP owns the spatial field record; PTime owns the time-quality interpretation.
+
 ## 2026-10-01 to 2026-10-07 Case — National Day High-Density Window
 
 This seven-day period is classified as a candidate AlphaTime block because:
