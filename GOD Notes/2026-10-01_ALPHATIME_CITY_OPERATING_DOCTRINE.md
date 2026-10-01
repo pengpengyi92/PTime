@@ -147,3 +147,44 @@ Avoid:
 > **Some city blocks become more useful after business hours because the same high-value environment remains while noise and task-switching fall.**
 
 This is a valid AlphaTime window when it protects, rather than consumes, next-day energy.
+
+
+## 2026-10-02 01:07 HKT — Benchmark-Driven Central Night Loop
+
+Central now has a concrete P-Time anchor structure:
+
+**Chater House / Jane Street**
+→ **The Henderson / Point72**
+→ **IFC / Jump Trading + Citadel Securities**
+→ surrounding culture / hospitality / architecture DD.
+
+### Why this belongs in P-Time
+
+The route turns one evening into multiple compatible outputs:
+- firm DD;
+- workplace DD;
+- culture DD;
+- architecture observation;
+- hosting discovery;
+- low-stimulation walking;
+- career imagination;
+- immediate note capture.
+
+The route should remain **anchor-driven**, not open-ended wandering.
+
+### Standard block
+
+**T0 career anchor**
+→ 20–40 min building / neighborhood DD
+→ 30–60 min walk
+→ one hosting / recovery node if useful
+→ capture
+→ hard stop / return.
+
+### Quality rule
+
+The value comes from density, not lateness.
+
+If the walk starts consuming sleep or becomes random nightlife exploration, the AlphaTime advantage disappears.
+
+> **Benchmark creates direction. P-Time creates a bounded block. PMap creates reusable geography.**
