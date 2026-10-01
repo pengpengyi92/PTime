@@ -84,3 +84,48 @@ prepare / build / apply / interview
 
 > **AlphaTime is not where you are. AlphaTime is what the time compounds into.**
 
+
+
+## 2026-10-02 — Reusable AlphaTime Node Protocol
+
+Lan Kwai Fong is now promoted from an occasional AlphaTime candidate into a **reusable AlphaTime node**.
+
+The purpose of repeated visits is not repetition. It is compounding.
+
+### Repeatable loop
+
+```text
+arrive with one mission
+-> speak / observe / host / capture
+-> learn vocabulary in context
+-> create one social or media artifact
+-> record one insight
+-> leave with next action
+```
+
+### Minimum AlphaTime output
+
+A visit should ideally produce at least two of:
+- one new spoken-English phrase;
+- one real conversation;
+- one useful relationship touchpoint;
+- one photo / video / post;
+- one city / company / culture insight;
+- one meaningful recovery outcome;
+- one career / PhD follow-up.
+
+### Time rule
+
+**Work first; reusable social node second.**
+
+Lan Kwai Fong should support:
+- interview preparation;
+- international-team fluency;
+- career / academic outreach;
+- recovery;
+- media;
+- relationships.
+
+It should never become a substitute for focused work.
+
+> **Repeated AlphaTime works only when each repetition adds a new layer.**
