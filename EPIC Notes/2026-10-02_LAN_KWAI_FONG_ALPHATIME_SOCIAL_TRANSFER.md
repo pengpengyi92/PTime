@@ -46,3 +46,41 @@ Use:
 Do not let opportunity density become random drift.
 
 > Nightlife can be AlphaTime when it compounds language, relationships, culture, hosting or recovery.
+
+
+## 2026-10-02 — AlphaTime Conversion Stack
+
+Lan Kwai Fong can generate AlphaTime through multiple channels at once:
+
+- **Social:** casual talk / hosting / relationship depth;
+- **Culture:** multicultural exposure / Hong Kong city reading;
+- **English:** spontaneous spoken-English practice;
+- **Rest:** music / bounded enjoyment / psychological reset;
+- **Info:** useful local / industry context when it emerges naturally;
+- **Media:** photos / video / notes / content;
+- **Career:** stronger interview fluency and international-team readiness.
+
+### AlphaTime transfer equation
+
+```text
+City exposure
+-> Conversation
+-> Observation
+-> Capture
+-> Reflection
+-> Work / Media / Relationship asset
+```
+
+The session becomes valuable when the experience is **transferred** into something reusable.
+
+### Work-first sequence
+
+```text
+prepare / build / apply / interview
+-> bounded LKF social block
+-> recover / capture
+-> next work block
+```
+
+> **AlphaTime is not where you are. AlphaTime is what the time compounds into.**
+
