@@ -101,3 +101,49 @@ Do not merely spend time in Shenzhen and Hong Kong.
 **P-Time does not optimize utilization. P-Time optimizes AlphaTime yield.**
 
 A day with fewer but better blocks can dominate a packed day. The system should increasingly learn which combinations of place, task, people, and energy generate the highest returns and preferentially recreate them.
+
+
+## 2026-10-02 Field Pattern — Central Night Walk as AlphaTime
+
+A new field-tested P-Time pattern emerged in Central around **Chater Road / Chater Garden / Chater House / The Henderson**.
+
+### Observation
+
+After a high-density career / building DD block, the office district around Central can become quieter late at night.
+
+For the observed 2026-10-02 window, the user found the environment:
+- low-stimulation;
+- walkable;
+- architecturally interesting;
+- suitable for thinking and cultural / institutional observation.
+
+This suggests a reusable time block:
+
+**Work / meeting**
+→ 30–90 min Central night walk
+→ culture / building DD
+→ capture 3–5 observations
+→ optional light drink / hosting
+→ return / sleep.
+
+### P-Time use rule
+
+The block is valuable only when intentional.
+
+Do:
+- choose a route;
+- choose one DD question;
+- walk;
+- capture;
+- stop.
+
+Avoid:
+- aimless nightlife expansion;
+- uncontrolled late-night delay;
+- sacrificing next-day sleep.
+
+### New principle
+
+> **Some city blocks become more useful after business hours because the same high-value environment remains while noise and task-switching fall.**
+
+This is a valid AlphaTime window when it protects, rather than consumes, next-day energy.
