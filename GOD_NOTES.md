@@ -45,3 +45,28 @@ Chater House is the current field case.
 The standard is behavioral: the environment must produce useful execution, learning, legitimate connection or recovery.
 
 > Excitement is a signal. Output is the proof.
+
+## AlphaTime Conversion Rule — Excitement -> Training
+
+**Timestamp:** 2026-10-02 18:13 HKT
+
+High-density professional environments can create a strong motivational signal.
+
+Convert it immediately:
+
+```text
+excitement
+→ specific capability gap
+→ training block
+→ evidence
+→ interview / application feedback
+```
+
+Current Chater House case:
+- PBCT programming / databases / systems;
+- Quant / market knowledge;
+- Bloomberg-style market-screen literacy;
+- English technical communication;
+- repeated technical interviews.
+
+> **Emotion is fuel; scheduled execution is the engine.**
