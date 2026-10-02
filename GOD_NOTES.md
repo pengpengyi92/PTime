@@ -305,3 +305,25 @@ Enter a dense node with a purpose:
 **talk, research, host, observe, recover or execute.**
 
 Hong Kong's current Funding × Autonomy × Direction thesis should be re-evaluated whenever policy, institution quality, capital access, research quality, compensation markets or personal direction materially change.
+
+
+## AlphaTime Trigger — Hong Kong -> P Global
+
+**Timestamp:** 2026-10-02 22:00:57 HKT
+
+Hong Kong now has a reusable context trigger:
+
+```text
+WHERE = Hong Kong
++ WHO = warm local / global relationship
++ WHEN = compatible time window
++ WHY = real purpose
+→ meetup / call / message
+```
+
+Tonight's field loop:
+**Causeway Bay -> MTR -> Central -> dinner / recovery -> possible friend invite / overseas call.**
+
+The city energy is useful only when converted responsibly.
+
+> **Use Hong Kong energy to maintain real relationships; do not turn it into compulsive outreach.**
