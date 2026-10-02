@@ -200,3 +200,30 @@ High density means:
 all reinforcing the same long-term direction.
 
 > Do not maximize activity count. Maximize reinforcement between valuable systems.
+
+## 18:45 HKT — AlphaTime tail: observation -> replenishment -> synthesis
+
+The office-exit peak is ending.
+
+Current transition:
+```text
+high-signal field observation
+→ capture notes
+→ Pedder Street walk
+→ charging / convenience replenishment
+→ synthesis
+→ next work block
+```
+
+This remains AlphaTime because replenishment is directly protecting the continuation of the high-value block.
+
+New rule:
+
+> **AlphaTime includes deliberate recovery / replenishment when it preserves the next execution block.**
+
+The completed field block should now be converted into:
+- Jane Street Hong Kong master notebook;
+- PBCT training;
+- market-data study;
+- applications / interview preparation;
+- scheduled, legitimate professional conversations.
