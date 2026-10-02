@@ -24,3 +24,24 @@ The goal is not permanent availability or constant work. The goal is freedom to 
 
 > Execution Base != Physical Base.
 > Travel changes where we execute, not whether we execute.
+
+## Institutional Resonance -> AlphaTime
+
+**Timestamp:** 2026-10-02 18:04 HKT
+
+AlphaTime is not only a calendar block. It can also be an environment-state interaction.
+
+```text
+right person-state
+× right institutional environment
+× autonomy
+× direction
+× opportunity / funding access
+= higher probability of AlphaTime
+```
+
+Chater House is the current field case.
+
+The standard is behavioral: the environment must produce useful execution, learning, legitimate connection or recovery.
+
+> Excitement is a signal. Output is the proof.
