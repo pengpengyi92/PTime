@@ -136,3 +136,25 @@ Current case:
 Chater House → Pedder Street → charging / convenience → master notebook → PBCT / interview / research follow-through.
 
 > **A strong AlphaTime block ends with conversion, not exhaustion.**
+
+## AlphaTime Doctrine — Hosting Can Be Productive Infrastructure
+
+**Timestamp:** 2026-10-02 18:57 HKT
+
+Formal hosting / dining belongs inside AlphaTime when it has a clear purpose:
+- relationship building;
+- research / career discussion;
+- collaboration;
+- interview / recruiting;
+- business / alumni follow-up.
+
+```text
+purposeful conversation
+× suitable environment
+× low transition friction
+→ productive hosting block
+```
+
+LANDMARK Atrium is the current field case.
+
+> **The venue is infrastructure; the conversation is the work.**
