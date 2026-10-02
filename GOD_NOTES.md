@@ -158,3 +158,20 @@ purposeful conversation
 LANDMARK Atrium is the current field case.
 
 > **The venue is infrastructure; the conversation is the work.**
+
+## AlphaTime Rule — Daily Market Calibration
+
+**Timestamp:** 2026-10-02 19:08 HKT
+
+A short daily market screen can be a high-value recurring AlphaTime block.
+
+```text
+market screen
+→ verified cross-asset context
+→ concise note
+→ next action
+```
+
+Cap the block and return to building.
+
+> **Read markets daily; do not let markets consume the day.**
