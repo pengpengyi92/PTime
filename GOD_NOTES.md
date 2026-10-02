@@ -195,3 +195,22 @@ Energy
 ```
 
 > **Presence supports AlphaTime when it protects focus and improves professional interaction.**
+
+## AlphaTime Rule — Ready, Not Constantly Performing
+
+**Timestamp:** 2026-10-02 19:28 HKT
+
+```text
+Prepare
+→ Execute
+→ Observe / Talk
+→ Recover
+→ Synthesize
+→ Prepare again
+```
+
+The objective is a persistent state of readiness, not permanent interview tension.
+
+Yung Kee dinner is the current field case: recovery + city DD + hosting benchmark.
+
+> **Prepared Time includes intentional recovery.**
