@@ -267,3 +267,41 @@ Wan Chai
 with Exhibition Centre adding a second rail / cross-border routing layer.
 
 > **A transport hub creates AlphaTime when it removes repeated activation and transition cost.**
+
+
+## AlphaTime Doctrine — Density × Flow × Conversion
+
+**Timestamp:** 2026-10-02 ~21:38 HKT  
+**Field case:** Causeway Bay / Paterson Street
+
+Causeway Bay demonstrates a useful AlphaTime pattern:
+
+```text
+mobility density
++ people / commerce density
++ replenishment
++ clear task
+→ more high-signal observations / conversations per hour
+```
+
+The financial-liquidity analogy is useful only as a mental model:
+high flow can expose more opportunities, but there is no automatic "arbitrage."
+
+For PBCT / PACT / PCCT:
+
+```text
+capability
+× dense ecosystem
+× feedback velocity
+× execution
+→ higher probability of useful conversion
+```
+
+Counter-rule:
+
+> **High stimulation without a conversion target becomes ETM-AAO leakage.**
+
+Enter a dense node with a purpose:
+**talk, research, host, observe, recover or execute.**
+
+Hong Kong's current Funding × Autonomy × Direction thesis should be re-evaluated whenever policy, institution quality, capital access, research quality, compensation markets or personal direction materially change.
