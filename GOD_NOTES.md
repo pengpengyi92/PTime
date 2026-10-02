@@ -414,3 +414,26 @@ Fast current-season defaults:
 The fast defaults are for intuition only; IANA zones remain canonical for exact scheduling.
 
 > **Solve one anchor, derive the network.**
+
+
+## GOD Rule — Boston-First Global Time Calculation
+
+**Timestamp:** 2026-10-02 22:23:55 HKT
+
+PTime's preferred human mental router is now:
+
+```text
+1. Solve NY / Boston from HKT.
+2. Chicago = Boston -1h.
+3. SF / Silicon Valley / LA = Boston -3h.
+4. Sydney = HKT +2/+3h.
+5. London = HKT -7/-8h.
+6. Amsterdam = London +1h.
+```
+
+Fast current-season defaults:
+**Boston -12, Chicago Boston-1, SF/LA Boston-3, Sydney +2, London -7, Amsterdam London+1.**
+
+The fast defaults are for intuition only; IANA zones remain canonical for exact scheduling.
+
+> **Solve one anchor, derive the network.**
