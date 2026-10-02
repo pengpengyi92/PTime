@@ -238,3 +238,32 @@ Control:
 Hong Kong convenience infrastructure also supports the recovery loop. **7-Eleven × Circle K** can provide hydration, quick energy, essentials and, where available, shared power-bank access between work / DD / transit blocks.
 
 > **AlphaTime is not adrenaline; it is the conversion of lived events into lower-friction future execution.**
+
+## AlphaTime Router — Wan Chai Compresses Transition Time
+
+**Date:** 2026-10-02  
+**Time:** evening HKT
+
+Today's field route shows that Wan Chai can create AlphaTime by compressing movement between living, replenishment, transit and Central work access.
+
+```text
+Wan Chai living / food / recovery
++ Island Line
++ nearby Exhibition Centre / East Rail
++ walkable Admiralty / Central
+→ less dead transition time
+→ more usable work / talk / recovery blocks
+```
+
+The practical route experienced today was:
+
+```text
+Wan Chai
+→ Admiralty
+→ Central
+→ Chater House
+```
+
+with Exhibition Centre adding a second rail / cross-border routing layer.
+
+> **A transport hub creates AlphaTime when it removes repeated activation and transition cost.**
