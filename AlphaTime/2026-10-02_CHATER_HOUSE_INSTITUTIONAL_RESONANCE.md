@@ -253,3 +253,31 @@ LANDMARK Atrium qualifies as an **AlphaTime-supporting hosting environment** whe
 > **AlphaTime can include hosting when the conversation itself advances the long-term direction.**
 
 Luxury consumption without a task is not automatically AlphaTime.
+
+## 19:08 HKT — Daily market calibration as recurring AlphaTime
+
+Convert the current market-screen excitement into a small recurring block.
+
+```text
+10–20 min market screen
+→ FX / rates / equity / macro scan
+→ one verified interpretation
+→ one note
+→ back to deep work
+```
+
+This qualifies as AlphaTime when it improves:
+- market literacy;
+- research context;
+- interview readiness;
+- trading / risk understanding.
+
+Do not let Bloomberg / news become open-ended attention consumption.
+
+### Public culture signal
+
+The Central field environment continued to show international / multicultural office traffic and casual-to-business-casual clothing.
+
+Treat this as weak environmental evidence only, not a formal dress-code claim.
+
+> **Calibration is AlphaTime; passive scrolling is not.**
