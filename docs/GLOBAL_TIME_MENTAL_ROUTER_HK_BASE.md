@@ -158,3 +158,25 @@ This makes Hong Kong a useful P-Global communication base:
 - Australia may already be late, especially East Coast.
 
 > **Fast mental math for intuition; IANA zones for truth.**
+
+
+## US communication matrix extension — 2026-10-02
+
+PTime's Hong Kong-base mental router now adds three US bands:
+
+```text
+New York / Boston = HK -12h EDT / -13h EST
+Chicago           = HK -13h CDT / -14h CST
+SF / Silicon Valley / LA = HK -15h PDT / -16h PST
+```
+
+Relative ladder:
+
+```text
+Boston / New York
+-> Chicago = -1h
+-> SF / LA = -3h from East Coast
+```
+
+Full notebook:
+[Global Time Zone Matrix from Hong Kong](../notebooks/GLOBAL_TIME_ZONE_MATRIX_HK_BASE.md)
