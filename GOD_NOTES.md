@@ -114,3 +114,25 @@ Current Chater House case:
 - PACT / PCCT continue through finance / institutional exposure.
 
 > **Density = mutually reinforcing high-value systems.**
+
+## AlphaTime Lifecycle — Observe -> Replenish -> Synthesize
+
+**Timestamp:** 2026-10-02 18:45 HKT
+
+High-value field time has a lifecycle:
+
+```text
+enter high-signal environment
+→ observe / talk / work
+→ capture
+→ replenish energy / device
+→ synthesize
+→ convert into next action
+```
+
+Replenishment is part of AlphaTime when it directly protects the next execution block.
+
+Current case:
+Chater House → Pedder Street → charging / convenience → master notebook → PBCT / interview / research follow-through.
+
+> **A strong AlphaTime block ends with conversion, not exhaustion.**
