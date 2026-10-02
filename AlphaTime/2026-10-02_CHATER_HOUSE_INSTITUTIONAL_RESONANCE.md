@@ -150,3 +150,53 @@ The field environment is high-value only if it changes the next action:
 - research release;
 - interview preparation;
 - application / follow-up.
+
+## 18:31 HKT — High-density multi-track life model
+
+Current AlphaTime expanded into a multi-track education / capability model.
+
+Possible academic anchors:
+- Finance / Business PhD;
+- CS / Data Science PhD.
+
+The operating requirement is not choosing one identity forever. It is preserving the compound stack:
+
+```text
+PACT
+× PCCT
+× PBCT
+```
+
+A Finance / Business PhD can deepen institutional / finance research while PBCT continues through coding, systems, Kaggle, open source and technical research.
+
+A CS / DS PhD can deepen PBCT while finance / institutional literacy and PACT continue in parallel.
+
+### Kaggle role
+
+Kaggle medals / Grandmaster status can be strong PBCT evidence, especially for applied ML / data / experimentation.
+
+But it is one evidence channel, not the whole capability stack.
+
+### Research precision
+
+JFA means **Journal of Finance** — a journal, not a conference.
+
+Research outputs can include:
+- working papers;
+- preprints;
+- personal research pages;
+- arXiv submissions where appropriate;
+- peer-reviewed conference / journal submissions.
+
+### AlphaTime rule
+
+High density means:
+- learning;
+- building;
+- research;
+- connection;
+- optionality;
+
+all reinforcing the same long-term direction.
+
+> Do not maximize activity count. Maximize reinforcement between valuable systems.
