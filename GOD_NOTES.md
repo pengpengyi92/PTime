@@ -327,3 +327,34 @@ Tonight's field loop:
 The city energy is useful only when converted responsibly.
 
 > **Use Hong Kong energy to maintain real relationships; do not turn it into compulsive outreach.**
+
+
+## Global Time Mental Router — HK Base
+
+**Date:** 2026-10-02
+
+PTime now uses a simple mental model anchored on Hong Kong:
+
+```text
+Target time = HKT + memorized offset
+```
+
+High-frequency rules:
+- **London:** HKT -7h in BST / -8h in GMT.
+- **Boston:** HKT -12h in EDT / -13h in EST.
+- **Sydney / Melbourne:** HKT +2h in AEST / +3h in AEDT.
+- **Brisbane:** HKT +2h year-round.
+- **Adelaide:** HKT +1h30m in ACST / +2h30m in ACDT.
+- **Perth:** same as HKT year-round.
+- **Darwin:** HKT +1h30m year-round.
+
+Australia must be treated as multiple zones, not one offset.
+
+For 2026, DST in NSW / Victoria / South Australia / ACT / Tasmania starts on **2026-10-04**, so Sydney / Melbourne / Adelaide move one hour further ahead after that transition.
+
+Operational rule:
+
+> **Mental offset for speed; IANA timezone for exactness.**
+
+Detailed note:
+[Global Time Mental Router — Hong Kong Base](docs/GLOBAL_TIME_MENTAL_ROUTER_HK_BASE.md)
