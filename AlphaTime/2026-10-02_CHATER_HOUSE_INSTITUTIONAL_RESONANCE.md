@@ -227,3 +227,29 @@ The completed field block should now be converted into:
 - market-data study;
 - applications / interview preparation;
 - scheduled, legitimate professional conversations.
+
+## 18:57 HKT — LANDMARK Atrium: hosting as an AlphaTime extension
+
+The field block has moved from Chater House into LANDMARK Atrium.
+
+New insight:
+
+```text
+work / research node
+→ formal meeting / hosting
+→ dining / conversation
+→ transit / recovery
+```
+
+can remain inside one continuous high-value block when the transitions are purposeful.
+
+LANDMARK Atrium qualifies as an **AlphaTime-supporting hosting environment** when it is used for:
+- scheduled professional conversations;
+- interview / role debriefs;
+- alumni / partner meetings;
+- formal dining;
+- focused recovery before the next work block.
+
+> **AlphaTime can include hosting when the conversation itself advances the long-term direction.**
+
+Luxury consumption without a task is not automatically AlphaTime.
