@@ -281,3 +281,29 @@ The Central field environment continued to show international / multicultural of
 Treat this as weak environmental evidence only, not a formal dress-code claim.
 
 > **Calibration is AlphaTime; passive scrolling is not.**
+
+## 19:15 HKT — Professional presence as AlphaTime support
+
+Current field insight:
+high-density professional environments also surface a practical requirement for **energy + presentation + communication**.
+
+```text
+recovery / nutrition / hydration
+→ stable energy
+→ clean professional presentation
+→ better conversation / interview presence
+```
+
+This is supporting infrastructure, not the main work.
+
+Do not spend AlphaTime tracking specific people or copying individual appearance.
+
+Use the observation to improve:
+- energy;
+- grooming;
+- business-casual wardrobe;
+- English communication;
+- confidence;
+- meeting readiness.
+
+> **Presence should reduce friction around capability, not replace capability.**
