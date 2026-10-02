@@ -89,3 +89,28 @@ PBCT is the current major build target.
 Research begins before formal PhD enrollment.
 
 > **Use AlphaTime to convert environmental resonance into the next concrete capability block.**
+
+## High-Density Rule — Reinforcement, Not Activity Count
+
+**Timestamp:** 2026-10-02 18:31 HKT
+
+A high-density life is not one with many disconnected tasks.
+
+```text
+research
++ building
++ finance understanding
++ professional relationships
++ competition / benchmark evidence
++ recovery / autonomy
+```
+
+becomes high-value only when the parts reinforce one another.
+
+Current Chater House case:
+- Finance / Business PhD and CS / DS PhD are both viable structural possibilities;
+- PBCT can continue independently of formal degree title;
+- Kaggle can be a strong PBCT evidence stream;
+- PACT / PCCT continue through finance / institutional exposure.
+
+> **Density = mutually reinforcing high-value systems.**
