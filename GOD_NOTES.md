@@ -175,3 +175,23 @@ market screen
 Cap the block and return to building.
 
 > **Read markets daily; do not let markets consume the day.**
+
+## AlphaTime Support Layer — Energy × Presentation
+
+**Timestamp:** 2026-10-02 19:15 HKT
+
+A high-value professional block is easier to sustain when:
+- energy is stable;
+- hydration / food / recovery are managed;
+- grooming is consistent;
+- clothing fits the context;
+- communication is clear.
+
+```text
+Energy
+× Presentation
+× Communication
+→ lower friction around capability
+```
+
+> **Presence supports AlphaTime when it protects focus and improves professional interaction.**
