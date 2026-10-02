@@ -43,3 +43,40 @@ Rationale:
 
 > Location exposure + direct preparation + legitimate connection = AlphaTime.
 > Mere proximity without learning or action is not enough.
+
+## 17:59 HKT update — recurring work / presence hypothesis
+
+The current Chater House / nodi block suggests a stronger long-term AlphaTime pattern:
+
+- use nearby public café / lounge space as a recurring work and preparation node;
+- combine real work with scheduled professional conversations;
+- practice English-first communication in an international finance environment;
+- treat Central as a repeatable career / learning environment rather than a special visit;
+- if future HKU / Hong Kong work or study makes access easy, this can become a high-frequency routine.
+
+```text
+do useful work
++ be in a high-signal environment
++ talk when there is a legitimate opportunity
++ capture and follow up
+= recurring AlphaTime
+```
+
+### Important boundary
+
+Do not spend AlphaTime tracking a particular person after they leave work.
+
+Once an individual becomes the focus, the observation becomes low-value and intrusive. Return attention to:
+- aggregate public flow;
+- the environment;
+- public events;
+- scheduled meetings;
+- your own work;
+- respectful professional conversations.
+
+### Signal rule
+
+Do not infer role quality from appearance.
+
+Use confirmed role, conversation, public professional information, and actual work / skill signals instead.
+
