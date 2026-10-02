@@ -70,3 +70,22 @@ Current Chater House case:
 - repeated technical interviews.
 
 > **Emotion is fuel; scheduled execution is the engine.**
+
+## Density AlphaTime — Compound Capability
+
+**Timestamp:** 2026-10-02 18:22 HKT
+
+Current field model:
+
+```text
+PACT
+× PCCT / institutional-finance literacy
+× PBCT technical / research capability
+→ higher Density conversion
+```
+
+Banking experience is retained as institutional literacy.
+PBCT is the current major build target.
+Research begins before formal PhD enrollment.
+
+> **Use AlphaTime to convert environmental resonance into the next concrete capability block.**
