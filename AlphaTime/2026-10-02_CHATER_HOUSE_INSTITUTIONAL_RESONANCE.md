@@ -64,3 +64,41 @@ This is the desired high-density loop.
 Do not use AlphaTime as justification for following individuals or inferring private routines. Keep observation aggregate and interaction normal, public, respectful and consent-based.
 
 > **Resonance is useful when it converts environment into execution.**
+
+## 18:13 HKT — Banking × Quant × Market-Data AlphaTime
+
+Current field block expanded from location resonance into a concrete learning / career stack.
+
+Observed:
+- dense coexistence of trading / finance / banking institutions in Central;
+- multiple J.P. Morgan-related business entities visible in the building ecosystem;
+- a public market-news / data screen showing economic information and currency / market instruments;
+- technical / smart-casual office culture signals.
+
+AlphaTime conversion:
+
+```text
+banking infrastructure literacy
++ PBCT programming / database / systems depth
++ markets / macro data literacy
++ repeated technical interview preparation
++ English-first communication
+→ actionable career training
+```
+
+### Anti-drift
+
+Do not follow individual employees after work. Keep field observation aggregate and public.
+
+Do not infer technical ability or role from appearance / clothing.
+
+### Immediate training consequence
+
+Use the excitement signal to trigger concrete work:
+- coding;
+- database / data-system drills;
+- systems design;
+- market-data reading;
+- FX / rates / macro review;
+- project defense;
+- interview loops.
