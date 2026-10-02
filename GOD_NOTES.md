@@ -358,3 +358,36 @@ Operational rule:
 
 Detailed note:
 [Global Time Mental Router — Hong Kong Base](docs/GLOBAL_TIME_MENTAL_ROUTER_HK_BASE.md)
+
+
+## PTime Core Global Communication Matrix
+
+**Date:** 2026-10-02  
+**Base:** Hong Kong / HKT
+
+High-frequency mental ladder:
+
+```text
+London            = HK -7/-8
+New York / Boston = HK -12/-13
+Chicago           = HK -13/-14
+SF / Silicon Valley / LA = HK -15/-16
+Sydney            = HK +2/+3
+```
+
+Relative US shortcut:
+
+```text
+East Coast
+-> Chicago -1h
+-> West Coast -3h
+```
+
+This is the default PTime mental matrix for global communication.
+
+Use the matrix to answer **"who is naturally reachable now?"**, then verify exact time with IANA zones before an important call or meeting.
+
+Notebook:
+[Global Time Zone Matrix from Hong Kong](notebooks/GLOBAL_TIME_ZONE_MATRIX_HK_BASE.md)
+
+> **Memorize the global ladder; verify the exact clock.**
