@@ -102,3 +102,51 @@ Use the excitement signal to trigger concrete work:
 - FX / rates / macro review;
 - project defense;
 - interview loops.
+
+## 18:22 HKT — Density Capability Equation
+
+Current AlphaTime insight:
+
+The Ping An banking year supplied a broad institutional-finance map:
+organization, banking, insurance, finance-system structure, financial statements, policy, compliance, risk and operations.
+
+The next multiplier is PBCT:
+programming, systems, databases, ML, research and markets.
+
+Working equation:
+
+```text
+Density
+≈ PACT
+× PCCT / institutional-finance literacy
+× PBCT technical / research depth
+```
+
+This is not literal mathematics; it is an operating metaphor for complementarity.
+
+### Research consequence
+
+Do not wait for a PhD title to begin research.
+
+```text
+research question
+→ experiment / system
+→ reproducible evidence
+→ technical PDF
+→ personal research page
+→ preprint / arXiv where appropriate
+→ later peer review
+```
+
+A personal-site timestamp is evidence of chronology, not peer review.
+
+### AlphaTime conversion
+
+The field environment is high-value only if it changes the next action:
+- coding;
+- database / systems work;
+- experiment design;
+- paper writing;
+- research release;
+- interview preparation;
+- application / follow-up.
