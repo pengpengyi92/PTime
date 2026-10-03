@@ -69,3 +69,54 @@ For the current Shenzhen setup:
 forms a useful recovery-to-opportunity corridor.
 
 PAFC is a T0 high-energy recovery / activation node near the base. Hong Kong is a high-energy AlphaTime environment. Their proximity lowers the cost of re-entry after a weak state, provided transitions are executed deliberately.
+
+
+## No-good-T → Recovery rule
+
+Time should be managed as a sequence of state transitions, not as an obligation to keep filling every available minute.
+
+When the current branch no longer offers a strong **T** — a defined task, person, information gain, hosting objective, research objective, route-learning objective, or genuine recovery value — do not force continuation.
+
+Default transition:
+
+**No strong next T → Close → Sleep / Recovery → wait for the next high-value state window.**
+
+The important idea is that time keeps moving. A weak late-night branch does not need to be extended merely because the current day is still technically available. Intentional recovery can improve the probability distribution of the next morning.
+
+### Exploration is allowed; post-exploration drift is not
+
+The Victoria Harbour / Tsim Sha Tsui bar-street exploration was not zero-value. It produced:
+- ecosystem familiarity;
+- a clearer understanding that the area has low default repeat value for current goals;
+- validation of the Austin / cross-border return route.
+
+Once that information was captured, the exploration objective was complete.
+
+Future default for this area:
+- **do not revisit for purposeless wandering;**
+- revisit when there is a defined hosting, dining, meeting, transport, social, or research purpose.
+
+So PTime should distinguish:
+
+**Exploration with information gain ≠ drift after information gain saturates.**
+
+### Transition quality rule
+
+For each optional action at time T, ask:
+
+1. What does this action produce now?
+2. What state does it make more likely at T+1?
+3. Is the information / social / recovery gain still increasing?
+4. If the gain has saturated, is Recovery a better transition?
+
+A good T should create a better T+1.
+
+## Geographic state architecture
+
+Current preferred personal operating architecture:
+
+**Shenzhen base ↔ Hong Kong high-frequency AlphaTime network**, with Shanghai viewed positively as an additional major city rather than the primary current base.
+
+This is a personal strategy / preference, not an objective city ranking.
+
+For Pengyi OS, Shenzhen has special value because the home base, PAFC, finance / tech / quant nodes, and Hong Kong access are tightly connected. The Shenzhen–Hong Kong pair therefore functions as a combined high-density PACT + PBCT + PCCT operating region.
