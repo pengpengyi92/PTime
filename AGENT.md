@@ -64,13 +64,49 @@ or WHAT ACTION. Otherwise it probably belongs elsewhere.
   unsupported years must be UNKNOWN. Keep source/date/scope in configuration.
 - PCV integration is reference-only: PTime decides WHEN; content systems decide WHAT.
 
+## V2.3 Markov Chain / Discrete-Time Design
+
+V2.3 adds a state-transition view of personal time:
+
+`T -> T+1 -> T+2`
+
+At each meaningful decision boundary, evaluate both:
+1. immediate value; and
+2. the quality/probability of the next state created by the current action.
+
+Practical model:
+
+`P(S[t+1] | S[t], A[t])`
+
+This is a useful operating approximation, not a claim that human behavior is literally
+memoryless. Sleep debt, energy, attention, location, mission clarity and unfinished work
+should be represented inside the current state.
+
+Core rules:
+- purposeful exploration is valid while information gain remains positive;
+- when information gain saturates, close or transition to a named purpose;
+- uncontrolled drift can self-propagate across several states;
+- recovery / sleep is a first-class transition and can be the best action when there
+  is no strong next T;
+- optimize cumulative AlphaTime density and next-state quality, not raw waking hours.
+
+Read `docs/MARKOV_CHAIN_DISCRETE_TIME_MANAGER.md` and `releases/V2.3.md`
+before implementing this feature.
+
 ## Version Protocol
 
-SemVer: PATCH = fixes/small rule changes, MINOR = new capability/adapter, MAJOR = mission
-or architecture expansion. This release intentionally jumps from 0.1.0 to 2.0.0; no 1.0.0
-release is asserted.
+Before any version work, read `version/LATEST.md` and `version/AGENT.md`.
 
-Update VERSION, pyproject.toml, ptime.__version__, CHANGELOG.md and VERSION.md together.
-For major/minor releases add releases/Vx.y.md; update README/AGENT when behavior changes.
-Run unit regressions and an installed-wheel smoke test before committing/tagging a release.
+SemVer: PATCH = fixes/small rule changes, MINOR = new capability/adapter, MAJOR = mission
+or architecture expansion. Version history is monotonic and append-only: never move a
+latest/current pointer backward or call an older version current.
+
+The implemented package version and design/spec version are separate tracks. A spec may
+be ahead, but `VERSION`, pyproject.toml and `ptime.__version__` advance only after
+implementation, tests, packaging smoke checks and release metadata are complete.
+
+Update VERSION, pyproject.toml, ptime.__version__, CHANGELOG.md and VERSION.md together
+for an implemented package release. For major/minor releases add releases/Vx.y.md and
+update README/AGENT when behavior changes.
+
 Do not mark a version closed while required tests or publication are outstanding.
