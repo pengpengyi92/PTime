@@ -1,6 +1,6 @@
 # GOD Note — T → T+1 Markov Time Protocol
 
-**Timestamp:** 2026-10-05 17:24 HKT
+**Updated:** 2026-10-05 17:30 HKT
 
 ## Core idea
 Treat life as a state-transition process.
@@ -34,9 +34,19 @@ while reducing:
 ## Hong Kong example
 A good sequence is:
 
-**HK fieldwork → identify Wan Chai as T0 base → map Admiralty / Central → build relationships → secure role / RA / PhD → rent and land → compound over years.**
+**HK fieldwork → identify Wan Chai as T0 base → map Admiralty / Central → understand public office-district geography → build relationships → secure role / RA / PhD → rent and land → compound over years.**
 
 Each step makes the next state easier and higher-quality.
+
+## Current T
+**2026-10-05 17:30 HKT:** walking through the elevated Admiralty–Central corridor toward the Chater House / Central office district.
+
+This is a good T when it produces:
+- better career geography;
+- sharper target-company context;
+- better venue knowledge;
+- a concrete next outreach / application action;
+without creating unnecessary risk or distraction.
 
 ## Time principle
 **Time is precious.**
