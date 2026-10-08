@@ -41,3 +41,26 @@ INTENTIONAL_WORK
 - Do not infer or publish any specific person's private behavior or location.
 - No CLI/runtime change, new integration, scheduler or automatic alert is implemented here.
 - V2.3 design remains ahead of the V2.1 implementation; no version increment.
+
+## Addendum — Every T Builds a Better T+1
+
+**Recorded at:** 2026-10-09 01:42 Asia/Shanghai (UTC+08:00)  
+**Source context:** 2026-10-08 reflection; public-safe abstraction (no private activity details).
+
+> **Every T should create the conditions for a better T+1. / 每个 T 都要为更好的 T+1 创造条件。**
+
+### Why this matters
+An unplanned pause can become repeated analysis, passive consumption or a delayed start. The loss is not only the current block: it may lower the next block's energy, readiness, confidence or available options. Detect that *state transition* early rather than waiting for a whole evening to disappear.
+
+### T → T+1 operating contract
+1. **Name T:** choose exactly one intention — Output / Connection / Observation / Recovery — and one concrete next action.
+2. **Check the transition:** is this T increasing T+1's readiness, evidence, option value or restoration? Deliberate recovery qualifies.
+3. **Interrupt unchosen drift:** STOP the distraction → RESET physically → choose either a ten-minute start or intentional rest.
+4. **Escalate the environment:** if the intended task repeatedly fails to start at home despite a short reset, switch to a preselected suitable workspace when practical; if it is late and fatigue is dominant, prioritize sleep.
+5. **Leave a handoff:** record one micro-Close and the *first action* for T+1; do not confuse a plan with an executed result.
+
+**Simple transition record:** `T intent | actual state | interrupt/choice | Close evidence | T+1 first action`.
+
+**2026-10-08 lesson:** a planned application/work block at home experienced avoidable drift and a delayed start. Treat it as an environment-and-initiation signal; no duration, outcomes or private particulars are inferred. Next response is a concrete start / location change / recovery choice, not retrospective self-punishment.
+
+**Boundary:** “better T+1” is a directional decision rule, not a promise of uninterrupted productivity or a claim that a monitoring algorithm has shipped. Rest, sleep and relationships can be the highest-quality transition.
