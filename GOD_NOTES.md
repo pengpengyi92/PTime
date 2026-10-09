@@ -437,3 +437,25 @@ Fast current-season defaults:
 The fast defaults are for intuition only; IANA zones remain canonical for exact scheduling.
 
 > **Solve one anchor, derive the network.**
+
+## AlphaTime Rule — Short Exercise Supports Deep Work
+
+- Date: 2026-10-09
+- Time: evening, Asia/Shanghai (exact minute not captured)
+- Field trigger: Shenzhen neighborhood evening running (PMAP: 华富大厦 / Huafu Building)
+
+An evening should not be modeled as an impossible choice between health and important work.
+
+```text
+choose the primary PPCT / company-work Close
+→ schedule bounded movement / hydration / food if needed
+→ execute the highest-value deep-work block
+→ record the actual deliverable / submission / feedback
+→ sleep and protect T+1
+```
+
+A brief walk/run can be `Recovery` under AlphaTime when it improves sustainability. But unscheduled wandering and endless rearranging of tasks do not become AlphaTime merely because they happen outdoors.
+
+Privacy: never record a colleague's residence, whereabouts or exercise schedule.
+
+> **Healthy T is valuable if it makes T+1 stronger; the test is sustained output and energy, not maximum busyness.**
